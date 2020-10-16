@@ -1,0 +1,2 @@
+C:\Users\Arne\Desktop\DirectXTex-master\DirectXTex\Bin\Desktop_2019\x64\Debug\DirectXTex.lib
+C:\Users\Arne\Desktop\DirectXTex-master\DirectXTex\Bin\Desktop_2019\x64\Debug\DirectXTex.pdb

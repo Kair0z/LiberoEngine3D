@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bc7bceb3-a4d2-4bbe-843d-a6e932c63fc0}</ProjectGuid>
+    <RootNamespace>LiberoEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Configuration)_$(Platform)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)bin_temp\$(Configuration)_$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Configuration)_$(Platform)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)bin_temp\$(Configuration)_$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;LBR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Liber_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>src;src\Libero\Misc;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\VLD\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Effects11d.lib;DirectXTex.lib;%(AdditionalDependencies);dxgi.lib;d3d11.lib;vld.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DX_Effects11\lib\x64\Debug;$(SolutionDir)Libs\DX_Tex\lib\x64\Debug;%(AdditionalLibraryDirectories);$(SolutionDir)Libs\VLD\lib\Win64</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;LBR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Liber_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>src;src\Libero\Misc;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\VLD\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Effects11.lib;DirectXTex.lib;%(AdditionalDependencies);dxgi.lib;d3d11.lib;vld.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DX_Effects11\lib\x64\Release\;$(SolutionDir)Libs\DX_Tex\lib\x64\Release\;%(AdditionalLibraryDirectories);$(SolutionDir)Libs\VLD\lib\Win64</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Libero\Components\InputComponent.cpp" />
+    <ClCompile Include="src\Libero\Components\SkyDomeRenderComponent.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Hierarchy.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Inspector.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Skydome\SkyDome.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Materials\MatDefaultShaded.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Materials\Material.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Materials\MaterialMaster.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Mesh.cpp" />
+    <ClCompile Include="src\Libero\Components\MeshFilterComponent.cpp" />
+    <ClCompile Include="src\Libero\Interfaces\Events\MouseEvent.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Resources.cpp" />
+    <ClCompile Include="src\Libero\Files\FileMaster.cpp" />
+    <ClCompile Include="src\Libero\Logging\Logger.cpp" />
+    <ClCompile Include="src\Libero\ECS\Core\IComponent.cpp" />
+    <ClCompile Include="src\Libero\Graphics\CameraMaster.cpp" />
+    <ClCompile Include="src\Libero\Components\CameraComponent.cpp" />
+    <ClCompile Include="src\Libero\Math\LiberoMath.cpp" />
+    <ClCompile Include="src\Libero\Scene\SceneMaster.cpp" />
+    <ClCompile Include="src\Libero\Game.cpp" />
+    <ClCompile Include="src\Libero\Components\MeshRenderComponent.cpp" />
+    <ClCompile Include="src\Libero\ECS\Containers\ComponentContainer.inl" />
+    <ClCompile Include="src\Libero\Input\InputMaster.cpp" />
+    <ClCompile Include="src\Libero\Interfaces\Events\IEvent.cpp" />
+    <ClCompile Include="src\Libero\Entities\GameObject.cpp" />
+    <ClCompile Include="src\Libero\Misc\FamilyTypeID.cpp" />
+    <ClCompile Include="src\Libero\Memory\MemoryMaster.cpp" />
+    <ClCompile Include="src\Libero\Memory\Allocators\ILibAllocator.cpp" />
+    <ClCompile Include="src\Libero\Memory\Allocators\LibLinearAllocator.cpp" />
+    <ClCompile Include="src\Libero\Memory\Allocators\LibPoolAllocator.cpp" />
+    <ClCompile Include="src\Libero\Memory\Allocators\LibStackAllocator.cpp" />
+    <ClCompile Include="src\Libero\Misc\Singleton.cpp" />
+    <ClCompile Include="src\Libero\Interfaces\ILocator.cpp" />
+    <ClCompile Include="src\Libero\Graphics\GraphicsMaster.cpp" />
+    <ClCompile Include="src\Libero\Settings\Settings.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\MyImGuiWindows.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\ImGuiWindow.cpp" />
+    <ClCompile Include="src\Libero\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="src\Libero\Engine\Engine.cpp" />
+    <ClCompile Include="src\Libero\Editor\ImGui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Libero\Editor\ImGui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Libero\Editor\ImGui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Libero\Editor\ImGui\imgui_impl_dx11.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Libero\Editor\ImGui\imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Libero\Editor\ImGui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Liber_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Libero\Editor\Editor.cpp" />
+    <ClCompile Include="src\Libero\ECS\Core\System.inl" />
+    <ClCompile Include="src\Libero\Interfaces\Observer\SubjectMaster.cpp" />
+    <ClCompile Include="src\Libero\Time\Time.cpp" />
+    <ClCompile Include="src\Libero\Systems\SysRendering.cpp" />
+    <ClCompile Include="src\Libero\Systems\SysTransforms.cpp" />
+    <ClCompile Include="src\Libero\Components\TransformComponent.cpp" />
+    <ClCompile Include="src\Libero\Systems\SysCameras.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Texture2D.cpp" />
+    <ClCompile Include="src\Libero\Systems\SysInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Libero\Components\ImGuiTooltips\ImGui_CompWidget.h" />
+    <ClInclude Include="src\Libero\Components\InputComponent.h" />
+    <ClInclude Include="src\Libero\Components\SkyDomeRenderComponent.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Hierarchy.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Inspector.h" />
+    <ClInclude Include="src\Libero\Graphics\Skydome\SkyDome.h" />
+    <ClInclude Include="src\Libero\Graphics\Materials\MatDefaultShaded.h" />
+    <ClInclude Include="src\Libero\Graphics\Materials\Material.h" />
+    <ClInclude Include="src\Libero\Graphics\Materials\MaterialMaster.h" />
+    <ClInclude Include="src\Libero\Graphics\Mesh.h" />
+    <ClInclude Include="src\Libero\Components\MeshFilterComponent.h" />
+    <ClInclude Include="src\Libero\Graphics\DXUtils.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Resources.h" />
+    <ClInclude Include="src\Libero\Content\TextureLoading.h" />
+    <ClInclude Include="src\Libero\Files\FileMaster.h" />
+    <ClInclude Include="src\Libero\Content\ILoader.h" />
+    <ClInclude Include="src\Libero\Content\ContentMaster.h" />
+    <ClInclude Include="src\Libero\Content\Loading.h" />
+    <ClInclude Include="src\Libero\Content\MeshLoading.h" />
+    <ClInclude Include="src\Libero\Interfaces\Events\KeyEvent.h" />
+    <ClInclude Include="src\Libero\Logging\Logger.h" />
+    <ClInclude Include="src\Libero\Graphics\CameraMaster.h" />
+    <ClInclude Include="src\Libero\Components\CameraComponent.h" />
+    <ClInclude Include="src\Libero\Misc\Colors.h" />
+    <ClInclude Include="src\Libero\Misc\LiberoUtils.h" />
+    <ClInclude Include="src\Libero\Scene\SceneMaster.h" />
+    <ClInclude Include="src\Libero\Scene\Scene.h" />
+    <ClInclude Include="src\Libero\Components\MeshRenderComponent.h" />
+    <ClInclude Include="src\Libero\ECS\Containers\ComponentContainer.h" />
+    <ClInclude Include="src\Libero\Graphics\Vertex.h" />
+    <ClInclude Include="src\Libero\Input\InputMaster.h" />
+    <ClInclude Include="src\Libero\Interfaces\Events\EngineEvent.h" />
+    <ClInclude Include="src\Libero\Interfaces\Events\EventDispatcher.h" />
+    <ClInclude Include="src\Libero\Interfaces\Events\IEvent.h" />
+    <ClInclude Include="src\Libero\Interfaces\Events\MouseEvent.h" />
+    <ClInclude Include="src\Libero\Interfaces\Observer\IObserver.h" />
+    <ClInclude Include="src\Libero\Entities\GameObject.h" />
+    <ClInclude Include="src\Libero\Misc\FamilyTypeID.h" />
+    <ClInclude Include="src\Libero\ECS\Core\Component.h" />
+    <ClInclude Include="src\Libero\ECS\Core\Entity.h" />
+    <ClInclude Include="src\Libero\Memory\Allocators\ChunkAllocator\LibChunkAllocator.h" />
+    <ClInclude Include="src\Libero\ECS\Containers\EntityContainer.h" />
+    <ClInclude Include="src\Libero\Memory\MemoryMaster.h" />
+    <ClInclude Include="src\Libero\Memory\Allocators\ILibAllocator.h" />
+    <ClInclude Include="src\Libero\Memory\Allocators\LibAllocators.h" />
+    <ClInclude Include="src\Libero\Memory\Allocators\LibLinearAllocator.h" />
+    <ClInclude Include="src\Libero\Memory\Allocators\LibPoolAllocator.h" />
+    <ClInclude Include="src\Libero\Memory\Allocators\LibStackAllocator.h" />
+    <ClInclude Include="src\Libero\Misc\Singleton.h" />
+    <ClInclude Include="src\Libero\ECS\Masters\EntityMaster.h" />
+    <ClInclude Include="src\Libero\ECS\Masters\ComponentMaster.h" />
+    <ClInclude Include="src\Libero\ECS\Core\ISystem.h" />
+    <ClInclude Include="src\Libero\ECS\Core\IComponent.h" />
+    <ClInclude Include="src\Libero\ECS\Core\IEntity.h" />
+    <ClInclude Include="src\Libero\ECS\ECSDef.h" />
+    <ClInclude Include="src\Libero\ECS\ECSMaster.h" />
+    <ClInclude Include="src\Libero\ECS\Masters\Masters.h" />
+    <ClInclude Include="src\Libero\Interfaces\ILocator.h" />
+    <ClInclude Include="src\Libero\Graphics\GraphicsMaster.h" />
+    <ClInclude Include="src\Libero\Misc\Handle.h" />
+    <ClInclude Include="src\Libero\Systems\CoreSystems.h" />
+    <ClInclude Include="src\Libero\Editor\ImGuiStyleLibrary.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\MyImGuiWindows.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\ImGuiWindow.h" />
+    <ClInclude Include="src\Libero\Graphics\RenderTarget.h" />
+    <ClInclude Include="src\Libero\Engine\Engine.h" />
+    <ClInclude Include="src\Libero\Math\LiberoMath.h" />
+    <ClInclude Include="src\Libero\Math\Vector.h" />
+    <ClInclude Include="src\Libero\Math\Vector2.h" />
+    <ClInclude Include="src\Libero\Math\Vector3.h" />
+    <ClInclude Include="src\Libero\Math\Vector4.h" />
+    <ClInclude Include="src\Libero\Settings\Settings.h" />
+    <ClInclude Include="src\Libero.h" />
+    <ClInclude Include="src\Libero\API.h" />
+    <ClInclude Include="src\Libero\Game.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imconfig.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imgui.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imgui_internal.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imstb_textedit.h" />
+    <ClInclude Include="src\Libero\Editor\ImGui\imstb_truetype.h" />
+    <ClInclude Include="src\Liber_pch.h" />
+    <ClInclude Include="src\Libero\Editor\Editor.h" />
+    <ClInclude Include="src\Libero\ECS\Masters\SystemMaster.h" />
+    <ClInclude Include="src\Libero\ECS\Core\System.h" />
+    <ClInclude Include="src\Libero\Interfaces\Observer\SubjectMaster.h" />
+    <ClInclude Include="src\Libero\Time\Time.h" />
+    <ClInclude Include="src\Libero\Systems\SysRendering.h" />
+    <ClInclude Include="src\Libero\Systems\SysTransforms.h" />
+    <ClInclude Include="src\Libero\Components\TransformComponent.h" />
+    <ClInclude Include="src\Libero\Systems\SysCameras.h" />
+    <ClInclude Include="src\Libero\Graphics\Texture2D.h" />
+    <ClInclude Include="src\Libero\Systems\SysInput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Libero\ECS\Containers\EntityContainer.inl" />
+    <None Include="src\Libero\ECS\Core\Component.inl" />
+    <None Include="src\Libero\ECS\Core\Entity.inl" />
+    <None Include="src\Libero\ECS\Core\IEntity.inl" />
+    <None Include="src\Libero\ECS\Core\ISystem.inl" />
+    <None Include="src\Libero\ECS\ECSLocator.inl" />
+    <None Include="src\Libero\ECS\ECSMaster.inl" />
+    <None Include="src\Libero\ECS\Masters\ComponentMaster.inl" />
+    <None Include="src\Libero\ECS\Masters\EntityMaster.inl" />
+    <None Include="src\Libero\ECS\Masters\SystemMaster.inl" />
+    <None Include="src\Libero\Memory\Allocators\ChunkAllocator\Chunk.inl" />
+    <None Include="src\Libero\Memory\Allocators\ChunkAllocator\ChunkIterator.inl" />
+    <None Include="src\Libero\Memory\Allocators\ChunkAllocator\LibChunkAllocator.inl" />
+    <None Include="src\Libero\Scene\Scene.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
