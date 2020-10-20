@@ -1,0 +1,589 @@
+Info,  T16488: Load daedae
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Debug, T16488: Found positive match for header keyword: <collada
+Info,  T16488: Found a matching importer for this file format: Collada Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: Collada schema version is 1.4.n
+Debug, T16488: UpdateImporterScale scale set: %f1
+Debug, T16488: ValidateDataStructureProcess begin
+Debug, T16488: ValidateDataStructureProcess end
+Debug, T16488: START `t1`
+Debug, T16488: END   `t1`, dt= 0.0001123 s
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_linear.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_linear.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_bezier.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_bezier.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_stepped.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_stepped.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_56.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_56.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_offset_repeat.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_offset_repeat.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_hermite.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_hermite.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_y_pre_ofrep_post_osc.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_y_pre_ofrep_post_osc.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_6.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_6.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_repeat.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_repeat.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_linear.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_linear.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_constant.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_constant.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_reset.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_reset.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_spline.lws
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_spline.lws".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/boxuv.lwo
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/boxuv.lwo".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/formatDetection
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/formatDetection".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/triangle.smd
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/triangle.smd".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/holy_grailref.smd
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/holy_grailref.smd".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF/TwoBoxes/TwoBoxes.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF/TwoBoxes/TwoBoxes.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/2CylinderEngine-glTF-Binary/2CylinderEngine.glb
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/2CylinderEngine-glTF-Binary/2CylinderEngine.glb".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF-Embedded/BoxTextured.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF-Embedded/BoxTextured.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_00.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_00.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_01.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_01.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_02.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_02.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_03.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_03.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_04.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_04.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_05.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_05.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_06.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_06.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_07.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_07.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_08.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_08.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_09.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_09.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_10.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_10.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_11.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_11.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_12.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_12.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/simple_skin/simple_skin.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/simple_skin/simple_skin.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/cameras/Cameras.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/cameras/Cameras.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Sample-Models/AnimatedMorphCube-glTF/AnimatedMorphCube.gltf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Sample-Models/AnimatedMorphCube-glTF/AnimatedMorphCube.gltf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/HMP/terrain.hmp
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/HMP/terrain.hmp".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/IFC/AC14-FZK-Haus.ifc
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/IFC/AC14-FZK-Haus.ifc".
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Debug, T16488: Found positive match for header keyword: HEADER
+Info,  T16488: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
+Info,  T16488: Import root directory is '.\'
+Warn,  T16488: DXF: EOF reached, but did not encounter DXF EOF marker
+Debug, T16488: DXF: Unexpanded polycount is 0, vertex count is 0
+Error, T16488: DXF: no data blocks loaded
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/spider.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/spider.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/box.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/box.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_nonames.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_nonames.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_names.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_names.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_mirroring_and_pivot.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_mirroring_and_pivot.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/close_to_identity_transforms.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/close_to_identity_transforms.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/phong_cube.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/phong_cube.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/global_settings.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/global_settings.fbx".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box.FBX
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box.FBX".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box_embedded_texture_fragmented.fbx
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box_embedded_texture_fragmented.fbx".
+Info,  T16488: Load $$$___magic___$$$.3ds
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: Found a matching importer for this file format: Discreet 3DS Importer.
+Info,  T16488: Import root directory is '.\'
+Info,  T16488: 3DS file format version: 3
+Warn,  T16488: 3DS: Skipping TCB animation info
+Skipping one or more lines with the same contents
+Error, T16488: 3DS: Skipping FOV animation track. This is not supported
+Warn,  T16488: 3DS: Skipping TCB animation info
+Skipping one or more lines with the same contents
+Info,  T16488: 3DS: Generating default material
+Debug, T16488: 3DS: Converting camera roll track ...
+Debug, T16488: UpdateImporterScale scale set: %f1
+Debug, T16488: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T16488: ScenePreprocessor: Setting animation duration
+Info,  T16488: Entering post processing pipeline
+Debug, T16488: RemoveRedundantMatsProcess begin
+Debug, T16488: RemoveRedundantMatsProcess finished 
+Debug, T16488: GenUVCoordsProcess begin
+Debug, T16488: GenUVCoordsProcess finished
+Debug, T16488: TriangulateProcess begin
+Debug, T16488: TriangulateProcess finished. There was nothing to be done.
+Debug, T16488: FindDegeneratesProcess begin
+Debug, T16488: FindDegeneratesProcess finished
+Debug, T16488: SortByPTypeProcess begin
+Info,  T16488: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T16488: SortByPTypeProcess finished
+Debug, T16488: FindInvalidDataProcess begin
+Debug, T16488: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T16488: SplitLargeMeshesProcess_Triangle begin
+Debug, T16488: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T16488: Generate spatially-sorted vertex cache
+Debug, T16488: GenVertexNormalsProcess begin
+Debug, T16488: GenVertexNormalsProcess finished. Normals are already there
+Debug, T16488: CalcTangentsProcess begin
+Info,  T16488: CalcTangentsProcess finished. Tangents have been calculated
+Debug, T16488: JoinVerticesProcess begin
+Debug, T16488: Mesh 0 (0) | Verts in: 36 out: 24 | ~33.3333%
+Info,  T16488: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3333
+Debug, T16488: SplitLargeMeshesProcess_Vertex begin
+Debug, T16488: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T16488: LimitBoneWeightsProcess begin
+Debug, T16488: LimitBoneWeightsProcess end
+Debug, T16488: ImproveCacheLocalityProcess begin
+Debug, T16488: Mesh %u | ACMR in: 0 out: 2 | ~20
+Info,  T16488: Cache relevant are 1 meshes (12 faces). Average output ACMR is 2
+Debug, T16488: ImproveCacheLocalityProcess finished. 
+Info,  T16488: Leaving post processing pipeline
+Info,  T16488: Registering custom importer for these file extensions: applelinuxmacwindows
+Info,  T16488: Unregistering custom importer: 
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/Testwuson.X
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/Testwuson.X".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/BCN_Epileptic.X
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/BCN_Epileptic.X".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_a.3d
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_a.3d".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/fels.3ds
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/fels.3ds".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/testFormatDetection
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/testFormatDetection".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AC/Wuson.ac
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AC/Wuson.ac".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test1.amf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test1.amf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test_with_mat.amf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test_with_mat.amf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/ASE/ThreeCubesGreen.ASE
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/ASE/ThreeCubesGreen.ASE".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Q3D/earth.q3o
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Q3D/earth.q3o".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/formatDetection
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/formatDetection".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_two_solids.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_two_solids.stl".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Debug, T16488: TriangulateProcess begin
+Debug, T16488: TriangulateProcess finished. There was nothing to be done.
+Debug, T16488: GenFaceNormalsProcess begin
+Info,  T16488: Normal vectors are undefined for line and point meshes
+Debug, T16488: GenFaceNormalsProcess finished. Normals are already there
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/OV_GetNextToken
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/OV_GetNextToken".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X3D/ComputerKeyboard.x3d
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X3D/ComputerKeyboard.x3d".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/PinkEggFromLW.dxf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/PinkEggFromLW.dxf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/lineTest
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/lineTest".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/issue_2229.dxf
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/issue_2229.dxf".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_uv.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_uv.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_binary.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_binary.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/float-color.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/float-color.ply".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/issue623.ply
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/issue623.ply".
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Debug, T16488: Found positive match for header keyword: ply
+Info,  T16488: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: PLY::DOM::ParseInstance() begin
+Debug, T16488: PLY::DOM::ParseHeader() begin
+Debug, T16488: PLY::DOM::ParseHeader() succeeded
+Debug, T16488: PLY::DOM::ParseElementInstanceLists() begin
+Debug, T16488: PLY::DOM::ParseElementInstanceLists() succeeded
+Debug, T16488: PLY::DOM::ParseInstance() succeeded
+Debug, T16488: UpdateImporterScale scale set: %f1
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: usemtl
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Error, T16488: OBJ: failed to locate material Default, creating new material
+Debug, T16488: UpdateImporterScale scale set: %f1
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: usemtl
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors_uni.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors_uni.obj".
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Debug, T16488: ValidateDataStructureProcess begin
+Error, T16488: Validation failed: Mesh  contains no faces
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Debug, T16488: ValidateDataStructureProcess begin
+Debug, T16488: ValidateDataStructureProcess end
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Debug, T16488: ValidateDataStructureProcess begin
+Debug, T16488: ValidateDataStructureProcess end
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Error, T16488: OBJ: Invalid component in homogeneous vector (Division by zero)
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Error, T16488: OBJ: Invalid face indice
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_mtllib_after_g.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_mtllib_after_g.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/point_cloud.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/point_cloud.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/box_without_lineending.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/box_without_lineending.obj".
+Info,  T16488: Load $$$___magic___$$$.
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T16488: File extension not known, trying signature-based detection
+Debug, T16488: Found positive match for header keyword: v 
+Info,  T16488: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T16488: Import root directory is '.\'
+Debug, T16488: UpdateImporterScale scale set: %f1
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/Example.ogex
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/Example.ogex".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/light_issue1262.ogex
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/light_issue1262.ogex".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/empty_camera.ogex
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/empty_camera.ogex".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SIB/heffalump.sib
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SIB/heffalump.sib".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/AreaLight_269.blend
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/AreaLight_269.blend".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/box.blend
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/box.blend".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/BlenderMaterial_269.blend
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/BlenderMaterial_269.blend".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/plane_2_textures_2_texcoords_279.blend
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/plane_2_textures_2_texcoords_279.blend".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/test_279.blend
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/test_279.blend".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BVH/01_01.bvh
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BVH/01_01.bvh".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/cameras.dae
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/cameras.dae".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/lights.dae
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/lights.dae".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.dae
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.dae".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.zae
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.zae".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/CSM/ThomasFechten.csm
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/CSM/ThomasFechten.csm".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/B3D/WusonBlitz.b3d
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/B3D/WusonBlitz.b3d".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/MDC/spider.mdc
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/MDC/spider.mdc".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/COB/molecule.cob
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/COB/molecule.cob".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Ogre/TheThing/Mesh.mesh.xml
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Ogre/TheThing/Mesh.mesh.xml".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models-nonbsd/PK3/SGDTT3.pk3
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models-nonbsd/PK3/SGDTT3.pk3".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OFF/Cube.off
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OFF/Cube.off".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/NFF/NFF/ManyEarthsNotJustOne.nff
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/NFF/NFF/ManyEarthsNotJustOne.nff".
+Info,  T16488: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/XGL/sample_official.xgl
+Debug, T16488: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T16488: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/XGL/sample_official.xgl".
+Debug, T16488: RemoveRedundantMatsProcess begin
+Info,  T16488: RemoveRedundantMatsProcess finished. Removed 2 redundant and 0 unused materials.
+Debug, T16488: RemoveRedundantMatsProcess begin
+Debug, T16488: Found positive match in exclusion list: 'Unique Mat2'
+Debug, T16488: Found positive match in exclusion list: 'Complex material name'
+Info,  T16488: RemoveRedundantMatsProcess finished. Removed 1 redundant and 0 unused materials.
+Debug, T16488: RemoveVCProcess begin
+Debug, T16488: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Debug, T16488: RemoveVCProcess finished. Nothing to be done ...
+Debug, T16488: Mesh 0 (unnamed) | Verts in: 900 out: 300 | ~66.6667%
+Debug, T16488: RemoveVCProcess begin
+Debug, T16488: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T16488: RemoveVCProcess begin
+Debug, T16488: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Info,  T16488: RemoveVCProcess finished. Data structure cleanup has been done.
+Info,  T16488: Mesh exceeds the triangle limit. It will be split ...
+Warn,  T16488: Found 300 degenerated primitives
+Skipping one or more lines with the same contents
+Warn,  T16488: Found 400 degenerated primitives
+Error, T16488: FindInvalidDataProcess fails on mesh uvcoords: INF/NAN was found in a vector component
+Error, T16488: FindInvalidDataProcess fails on mesh normals: Found zero-length vector
+Error, T16488: FindInvalidDataProcess fails on mesh bitangents: All vectors are identical
+Info,  T16488: Removed 5500 weights. Input bones: 30. Output bones: 8
+Debug, T16488: PretransformVerticesProcess begin
+Debug, T16488: PretransformVerticesProcess finished
+Info,  T16488: Removed 31 nodes and 0 animation channels (11 output nodes)
+Info,  T16488: Kept 0 lights and 0 cameras.
+Info,  T16488: Moved 25 meshes to WCS (number of output meshes: 10)
+Debug, T16488: PretransformVerticesProcess begin
+Info,  T16488: PretransformVertices: Copying mesh due to mismatching transforms
+Skipping one or more lines with the same contents
+Debug, T16488: PretransformVerticesProcess finished
+Info,  T16488: Removed 31 nodes and 0 animation channels (31 output nodes)
+Info,  T16488: Kept 0 lights and 0 cameras.
+Info,  T16488: Moved 25 meshes to WCS (number of output meshes: 49)
+Debug, T16488: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T16488: ScenePreprocessor: Dummy position track has been generated
+Debug, T16488: ScenePreprocessor: Setting animation duration
+Debug, T16488: ScenePreprocessor: Adding default material 'DefaultMaterial'
+Debug, T16488: SortByPTypeProcess begin
+Info,  T16488: Points: 5, Lines: 6, Triangles: 5, Polygons: 5 (Meshes, X = removed)
+Debug, T16488: SortByPTypeProcess finished

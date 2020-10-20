@@ -1,2074 +1,589 @@
-Info,  T30148: Load daedae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: Found positive match for header keyword: <collada
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: Collada schema version is 1.4.n
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: START `t1`
-Debug, T30148: END   `t1`, dt= 6.74e-05 s
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
+Info,  T23788: Load daedae
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Debug, T23788: Found positive match for header keyword: <collada
+Info,  T23788: Found a matching importer for this file format: Collada Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: Collada schema version is 1.4.n
+Debug, T23788: UpdateImporterScale scale set: %f1
+Debug, T23788: ValidateDataStructureProcess begin
+Debug, T23788: ValidateDataStructureProcess end
+Debug, T23788: START `t1`
+Debug, T23788: END   `t1`, dt= 6.54e-05 s
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_linear.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_linear.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_bezier.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_bezier.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_stepped.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_stepped.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_56.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_56.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_offset_repeat.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_offset_repeat.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_hermite.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_hermite.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_y_pre_ofrep_post_osc.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_y_pre_ofrep_post_osc.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_6.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_6.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_repeat.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_repeat.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_linear.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_linear.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_constant.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_constant.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_reset.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_reset.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_spline.lws
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_spline.lws".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/boxuv.lwo
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/boxuv.lwo".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/formatDetection
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/formatDetection".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/triangle.smd
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/triangle.smd".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/holy_grailref.smd
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/holy_grailref.smd".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF/TwoBoxes/TwoBoxes.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF/TwoBoxes/TwoBoxes.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/2CylinderEngine-glTF-Binary/2CylinderEngine.glb
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/2CylinderEngine-glTF-Binary/2CylinderEngine.glb".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF-Embedded/BoxTextured.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF-Embedded/BoxTextured.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_00.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_00.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_01.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_01.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_02.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_02.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_03.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_03.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_04.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_04.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_05.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_05.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_06.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_06.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_07.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_07.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_08.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_08.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_09.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_09.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_10.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_10.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_11.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_11.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_12.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_12.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/simple_skin/simple_skin.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/simple_skin/simple_skin.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/cameras/Cameras.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/cameras/Cameras.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Sample-Models/AnimatedMorphCube-glTF/AnimatedMorphCube.gltf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Sample-Models/AnimatedMorphCube-glTF/AnimatedMorphCube.gltf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/HMP/terrain.hmp
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/HMP/terrain.hmp".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/IFC/AC14-FZK-Haus.ifc
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/IFC/AC14-FZK-Haus.ifc".
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Debug, T23788: Found positive match for header keyword: HEADER
+Info,  T23788: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
+Info,  T23788: Import root directory is '.\'
+Warn,  T23788: DXF: EOF reached, but did not encounter DXF EOF marker
+Debug, T23788: DXF: Unexpanded polycount is 0, vertex count is 0
+Error, T23788: DXF: no data blocks loaded
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/spider.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/spider.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/box.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/box.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_nonames.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_nonames.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_names.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_names.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_mirroring_and_pivot.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_mirroring_and_pivot.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/close_to_identity_transforms.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/close_to_identity_transforms.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/phong_cube.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/phong_cube.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/global_settings.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/global_settings.fbx".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box.FBX
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box.FBX".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box_embedded_texture_fragmented.fbx
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box_embedded_texture_fragmented.fbx".
+Info,  T23788: Load $$$___magic___$$$.3ds
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: Found a matching importer for this file format: Discreet 3DS Importer.
+Info,  T23788: Import root directory is '.\'
+Info,  T23788: 3DS file format version: 3
+Warn,  T23788: 3DS: Skipping TCB animation info
 Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_linear.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
+Error, T23788: 3DS: Skipping FOV animation track. This is not supported
+Warn,  T23788: 3DS: Skipping TCB animation info
 Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_bezier.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
+Info,  T23788: 3DS: Generating default material
+Debug, T23788: 3DS: Converting camera roll track ...
+Debug, T23788: UpdateImporterScale scale set: %f1
+Debug, T23788: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T23788: ScenePreprocessor: Setting animation duration
+Info,  T23788: Entering post processing pipeline
+Debug, T23788: RemoveRedundantMatsProcess begin
+Debug, T23788: RemoveRedundantMatsProcess finished 
+Debug, T23788: GenUVCoordsProcess begin
+Debug, T23788: GenUVCoordsProcess finished
+Debug, T23788: TriangulateProcess begin
+Debug, T23788: TriangulateProcess finished. There was nothing to be done.
+Debug, T23788: FindDegeneratesProcess begin
+Debug, T23788: FindDegeneratesProcess finished
+Debug, T23788: SortByPTypeProcess begin
+Info,  T23788: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T23788: SortByPTypeProcess finished
+Debug, T23788: FindInvalidDataProcess begin
+Debug, T23788: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T23788: SplitLargeMeshesProcess_Triangle begin
+Debug, T23788: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T23788: Generate spatially-sorted vertex cache
+Debug, T23788: GenVertexNormalsProcess begin
+Debug, T23788: GenVertexNormalsProcess finished. Normals are already there
+Debug, T23788: CalcTangentsProcess begin
+Info,  T23788: CalcTangentsProcess finished. Tangents have been calculated
+Debug, T23788: JoinVerticesProcess begin
+Debug, T23788: Mesh 0 (0) | Verts in: 36 out: 24 | ~33.3333%
+Info,  T23788: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3333
+Debug, T23788: SplitLargeMeshesProcess_Vertex begin
+Debug, T23788: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T23788: LimitBoneWeightsProcess begin
+Debug, T23788: LimitBoneWeightsProcess end
+Debug, T23788: ImproveCacheLocalityProcess begin
+Debug, T23788: Mesh %u | ACMR in: 0 out: 2 | ~20
+Info,  T23788: Cache relevant are 1 meshes (12 faces). Average output ACMR is 2
+Debug, T23788: ImproveCacheLocalityProcess finished. 
+Info,  T23788: Leaving post processing pipeline
+Info,  T23788: Registering custom importer for these file extensions: applelinuxmacwindows
+Info,  T23788: Unregistering custom importer: 
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/Testwuson.X
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/Testwuson.X".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/BCN_Epileptic.X
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/BCN_Epileptic.X".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_a.3d
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_a.3d".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/fels.3ds
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/fels.3ds".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/testFormatDetection
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/testFormatDetection".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AC/Wuson.ac
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AC/Wuson.ac".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test1.amf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test1.amf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test_with_mat.amf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test_with_mat.amf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/ASE/ThreeCubesGreen.ASE
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/ASE/ThreeCubesGreen.ASE".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Q3D/earth.q3o
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Q3D/earth.q3o".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/formatDetection
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/formatDetection".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_two_solids.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_two_solids.stl".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl".
+Debug, T23788: TriangulateProcess begin
+Debug, T23788: TriangulateProcess finished. There was nothing to be done.
+Debug, T23788: GenFaceNormalsProcess begin
+Info,  T23788: Normal vectors are undefined for line and point meshes
+Debug, T23788: GenFaceNormalsProcess finished. Normals are already there
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/OV_GetNextToken
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/OV_GetNextToken".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X3D/ComputerKeyboard.x3d
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X3D/ComputerKeyboard.x3d".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/PinkEggFromLW.dxf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/PinkEggFromLW.dxf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/lineTest
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/lineTest".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/issue_2229.dxf
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/issue_2229.dxf".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_uv.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_uv.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_binary.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_binary.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/float-color.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/float-color.ply".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/issue623.ply
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/issue623.ply".
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Debug, T23788: Found positive match for header keyword: ply
+Info,  T23788: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: PLY::DOM::ParseInstance() begin
+Debug, T23788: PLY::DOM::ParseHeader() begin
+Debug, T23788: PLY::DOM::ParseHeader() succeeded
+Debug, T23788: PLY::DOM::ParseElementInstanceLists() begin
+Debug, T23788: PLY::DOM::ParseElementInstanceLists() succeeded
+Debug, T23788: PLY::DOM::ParseInstance() succeeded
+Debug, T23788: UpdateImporterScale scale set: %f1
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: usemtl
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Error, T23788: OBJ: failed to locate material Default, creating new material
+Debug, T23788: UpdateImporterScale scale set: %f1
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: usemtl
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors_uni.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors_uni.obj".
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Debug, T23788: ValidateDataStructureProcess begin
+Error, T23788: Validation failed: Mesh  contains no faces
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Debug, T23788: ValidateDataStructureProcess begin
+Debug, T23788: ValidateDataStructureProcess end
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Debug, T23788: ValidateDataStructureProcess begin
+Debug, T23788: ValidateDataStructureProcess end
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Error, T23788: OBJ: Invalid component in homogeneous vector (Division by zero)
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Error, T23788: OBJ: Invalid face indice
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_mtllib_after_g.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_mtllib_after_g.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/point_cloud.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/point_cloud.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/box_without_lineending.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/box_without_lineending.obj".
+Info,  T23788: Load $$$___magic___$$$.
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Info,  T23788: File extension not known, trying signature-based detection
+Debug, T23788: Found positive match for header keyword: v 
+Info,  T23788: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T23788: Import root directory is '.\'
+Debug, T23788: UpdateImporterScale scale set: %f1
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/Example.ogex
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/Example.ogex".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/light_issue1262.ogex
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/light_issue1262.ogex".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/empty_camera.ogex
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/empty_camera.ogex".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SIB/heffalump.sib
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SIB/heffalump.sib".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/AreaLight_269.blend
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/AreaLight_269.blend".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/box.blend
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/box.blend".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/BlenderMaterial_269.blend
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/BlenderMaterial_269.blend".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/plane_2_textures_2_texcoords_279.blend
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/plane_2_textures_2_texcoords_279.blend".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/test_279.blend
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/test_279.blend".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BVH/01_01.bvh
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BVH/01_01.bvh".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/cameras.dae
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/cameras.dae".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/lights.dae
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/lights.dae".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.dae
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.dae".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.zae
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.zae".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/CSM/ThomasFechten.csm
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/CSM/ThomasFechten.csm".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/B3D/WusonBlitz.b3d
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/B3D/WusonBlitz.b3d".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/MDC/spider.mdc
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/MDC/spider.mdc".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/COB/molecule.cob
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/COB/molecule.cob".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Ogre/TheThing/Mesh.mesh.xml
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Ogre/TheThing/Mesh.mesh.xml".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models-nonbsd/PK3/SGDTT3.pk3
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models-nonbsd/PK3/SGDTT3.pk3".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OFF/Cube.off
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OFF/Cube.off".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/NFF/NFF/ManyEarthsNotJustOne.nff
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/NFF/NFF/ManyEarthsNotJustOne.nff".
+Info,  T23788: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/XGL/sample_official.xgl
+Debug, T23788: Assimp 5.0.0 amd64 msvc shared singlethreaded
+Error, T23788: Unable to open file "C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/XGL/sample_official.xgl".
+Debug, T23788: RemoveRedundantMatsProcess begin
+Info,  T23788: RemoveRedundantMatsProcess finished. Removed 2 redundant and 0 unused materials.
+Debug, T23788: RemoveRedundantMatsProcess begin
+Debug, T23788: Found positive match in exclusion list: 'Unique Mat2'
+Debug, T23788: Found positive match in exclusion list: 'Complex material name'
+Info,  T23788: RemoveRedundantMatsProcess finished. Removed 1 redundant and 0 unused materials.
+Debug, T23788: RemoveVCProcess begin
+Debug, T23788: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Debug, T23788: RemoveVCProcess finished. Nothing to be done ...
+Debug, T23788: Mesh 0 (unnamed) | Verts in: 900 out: 300 | ~66.6667%
+Debug, T23788: RemoveVCProcess begin
+Debug, T23788: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T23788: RemoveVCProcess begin
+Debug, T23788: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Info,  T23788: RemoveVCProcess finished. Data structure cleanup has been done.
+Info,  T23788: Mesh exceeds the triangle limit. It will be split ...
+Warn,  T23788: Found 300 degenerated primitives
 Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_stepped.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
+Warn,  T23788: Found 400 degenerated primitives
+Error, T23788: FindInvalidDataProcess fails on mesh uvcoords: INF/NAN was found in a vector component
+Error, T23788: FindInvalidDataProcess fails on mesh normals: Found zero-length vector
+Error, T23788: FindInvalidDataProcess fails on mesh bitangents: All vectors are identical
+Info,  T23788: Removed 5500 weights. Input bones: 30. Output bones: 8
+Debug, T23788: PretransformVerticesProcess begin
+Debug, T23788: PretransformVerticesProcess finished
+Info,  T23788: Removed 31 nodes and 0 animation channels (11 output nodes)
+Info,  T23788: Kept 0 lights and 0 cameras.
+Info,  T23788: Moved 25 meshes to WCS (number of output meshes: 10)
+Debug, T23788: PretransformVerticesProcess begin
+Info,  T23788: PretransformVertices: Copying mesh due to mismatching transforms
 Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_56.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 2
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_offset_repeat.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_hermite.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_y_pre_ofrep_post_osc.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: aiNodeAnim::mPositionKeys[1].mTime (-71.00000) is smaller than aiAnimation::mPositionKeys[0] (which is 1.00000)
-Warn,  T30148: Validation warning: aiNodeAnim::mPositionKeys[5].mTime (-20.00000) is smaller than aiAnimation::mPositionKeys[4] (which is 1.00000)
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_oldformat_6.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 3
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_repeat.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_linear.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_constant.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_x_post_reset.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS/move_xz_spline.lws
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave Scene Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWS\'
-Debug, T30148: LWS: Skipping over plugin-specific data
-Skipping one or more lines with the same contents
-Info,  T30148: LWS file format version is 5
-Info,  T30148: %%% BEGIN EXTERNAL FILE %%%
-Info,  T30148: File: simple_cube.lwo
-Info,  T30148: Load simple_cube.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: %%% END EXTERNAL FILE %%%
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/boxuv.lwo
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2/formatDetection
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Info,  T30148: Found a matching importer for this file format: LightWave/Modo Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/LWO/LWO2\'
-Info,  T30148: LWO file format: LWO2 (>= LightWave 6)
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/triangle.smd
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Valve SMD Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD/holy_grailref.smd
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Valve SMD Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SMD\'
-Error, T30148: [SMD/VTA] Bone index overflow. The bone index will be ignored, the weight will be assigned to the vertex' parent node
-Skipping one or more lines with the same contents
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF/TwoBoxes/TwoBoxes.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF/TwoBoxes\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/2CylinderEngine-glTF-Binary/2CylinderEngine.glb
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/2CylinderEngine-glTF-Binary\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF-Embedded/BoxTextured.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF-Embedded\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_00.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_01.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_02.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_03.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_04.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_05.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_06.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_07.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_08.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_09.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_10.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_11.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode/Mesh_PrimitiveMode_12.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Asset-Generator/Mesh_PrimitiveMode\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/simple_skin/simple_skin.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/simple_skin\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy position track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/cameras/Cameras.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/cameras\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: 0.000000 is not a valid value for aiCamera::mHorizontalFOV
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/BoxTextured-glTF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (Mesh) | Verts in: 24 out: 24 | ~0%
-Debug, T30148: JoinVerticesProcess finished 
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Sample-Models/AnimatedMorphCube-glTF/AnimatedMorphCube.gltf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: glTF2 Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/glTF2/glTF-Sample-Models/AnimatedMorphCube-glTF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy position track has been generated
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (Cube) | Verts in: 24 out: 24 | ~0%
-Debug, T30148: JoinVerticesProcess finished 
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/HMP/terrain.hmp
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: 3D GameStudio Heightmap (HMP) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/HMP\'
-Debug, T30148: HMP subtype: 3D GameStudio A7, magic word is HMP7
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/IFC/AC14-FZK-Haus.ifc
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Industry Foundation Classes (IFC) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/IFC\'
-Debug, T30148: IFC: File schema is 'IFC2X3'
-Debug, T30148: STEP: got 82226 object records with 5788 inverse index entries
-Debug, T30148: IFC: got units used for lengths
-Debug, T30148: IFC: got units used for angles
-Debug, T30148: IFC: got world coordinate system
-Debug, T30148: IFC: looking at spatial structure `Gelände`
-Debug, T30148: IFC: selecting this spatial structure as root structure
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing degenerate faces
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: skipping IfcAnnotation entity due to importer settings
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: skipping IfcSpace entity due to importer settings
-Skipping one or more lines with the same contents
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping with polygonal bounding (IfcBooleanClippingResult)
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Warn,  T30148: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
-Debug, T30148: IFC: removing duplicate vertices
-Error, T30148: IFC: failed to generate all window caps
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping with polygonal bounding (IfcBooleanClippingResult)
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Warn,  T30148: IFC: failed to resolve all openings, presumably their topology is not supported by Assimp
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: removing degenerate faces
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: removing duplicate vertices
-Debug, T30148: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
-Debug, T30148: IFC: skipping IfcAnnotation entity due to importer settings
-Skipping one or more lines with the same contents
-Debug, T30148: IFC: skipping IfcSpace entity due to importer settings
-Debug, T30148: IFC: STEP: evaluated 70094 object records
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: Found positive match for header keyword: HEADER
-Info,  T30148: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
-Info,  T30148: Import root directory is '.\'
-Warn,  T30148: DXF: EOF reached, but did not encounter DXF EOF marker
-Debug, T30148: DXF: Unexpanded polycount is 0, vertex count is 0
-Error, T30148: DXF: no data blocks loaded
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/spider.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Debug, T30148: UpdateImporterScale scale set: %f0.01
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/box.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Info,  T30148: FBX: generating full transformation chain for node: root
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_nonames.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Warn,  T30148: FBX-DOM: unsupported, newer format version, supported are only FBX 2011, FBX 2012 and FBX 2013, trying to read it nevertheless
-Info,  T30148: FBX: ignoring empty AnimationStack (using IK?): Take 001
-Debug, T30148: UpdateImporterScale scale set: %f0.01
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_names.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Warn,  T30148: FBX-DOM: unsupported, newer format version, supported are only FBX 2011, FBX 2012 and FBX 2013, trying to read it nevertheless
-Info,  T30148: FBX: ignoring empty AnimationStack (using IK?): Take 001
-Debug, T30148: UpdateImporterScale scale set: %f0.01
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/cubes_with_mirroring_and_pivot.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Warn,  T30148: FBX-DOM: unsupported, newer format version, supported are only FBX 2011, FBX 2012 and FBX 2013, trying to read it nevertheless
-Info,  T30148: FBX: ignoring empty AnimationStack (using IK?): Take 001
-Info,  T30148: FBX: generating full transformation chain for node: Cube1001
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/close_to_identity_transforms.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Warn,  T30148: FBX-DOM: unsupported, newer format version, supported are only FBX 2011, FBX 2012 and FBX 2013, trying to read it nevertheless
-Info,  T30148: FBX: ignoring empty AnimationStack (using IK?): Take 001
-Info,  T30148: FBX: generating full transformation chain for node: Cube1001
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/phong_cube.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Warn,  T30148: FBX-DOM (TOK_KEY, offset 0x4190) source object for connection does not exist
-Debug, T30148: UpdateImporterScale scale set: %f0.01
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/global_settings.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX\'
-Error, T30148: FBX: no material assigned to mesh, setting default material
-Debug, T30148: UpdateImporterScale scale set: %f5
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box.FBX
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: A specular shading model is specified but the value of the AI_MATKEY_SHININESS_STRENGTH key is 0.0
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii/box_embedded_texture_fragmented.fbx
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Autodesk FBX Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/FBX/embedded_ascii\'
-Warn,  T30148: FBX-DOM: unsupported, newer format version, supported are only FBX 2011, FBX 2012 and FBX 2013, trying to read it nevertheless
-Error, T30148: FBX: ignoring additional binormal layer
-Error, T30148: FBX: ignoring additional tangent layer
-Info,  T30148: FBX: ignoring empty AnimationStack (using IK?): Take 001
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load $$$___magic___$$$.3ds
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Discreet 3DS Importer.
-Info,  T30148: Import root directory is '.\'
-Info,  T30148: 3DS file format version: 3
-Warn,  T30148: 3DS: Skipping TCB animation info
-Skipping one or more lines with the same contents
-Error, T30148: 3DS: Skipping FOV animation track. This is not supported
-Warn,  T30148: 3DS: Skipping TCB animation info
-Skipping one or more lines with the same contents
-Info,  T30148: 3DS: Generating default material
-Debug, T30148: 3DS: Converting camera roll track ...
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Setting animation duration
-Info,  T30148: Entering post processing pipeline
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: RemoveRedundantMatsProcess finished 
-Debug, T30148: GenUVCoordsProcess begin
-Debug, T30148: GenUVCoordsProcess finished
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: FindDegeneratesProcess begin
-Debug, T30148: FindDegeneratesProcess finished
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: FindInvalidDataProcess begin
-Debug, T30148: FindInvalidDataProcess finished. Everything seems to be OK.
-Debug, T30148: SplitLargeMeshesProcess_Triangle begin
-Debug, T30148: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
-Debug, T30148: Generate spatially-sorted vertex cache
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: CalcTangentsProcess begin
-Info,  T30148: CalcTangentsProcess finished. Tangents have been calculated
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (0) | Verts in: 36 out: 24 | ~33.3333%
-Info,  T30148: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3333
-Debug, T30148: SplitLargeMeshesProcess_Vertex begin
-Debug, T30148: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
-Debug, T30148: LimitBoneWeightsProcess begin
-Debug, T30148: LimitBoneWeightsProcess end
-Debug, T30148: ImproveCacheLocalityProcess begin
-Debug, T30148: Mesh %u | ACMR in: 0 out: 2 | ~20
-Info,  T30148: Cache relevant are 1 meshes (12 faces). Average output ACMR is 2
-Debug, T30148: ImproveCacheLocalityProcess finished. 
-Info,  T30148: Leaving post processing pipeline
-Info,  T30148: Registering custom importer for these file extensions: applelinuxmacwindows
-Info,  T30148: Unregistering custom importer: 
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Warn,  T30148: Unknown data object in mesh in x file
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Entering post processing pipeline
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: RemoveRedundantMatsProcess finished 
-Debug, T30148: OptimizeGraphProcess begin
-Debug, T30148: OptimizeGraphProcess finished
-Debug, T30148: GenUVCoordsProcess begin
-Debug, T30148: GenUVCoordsProcess finished
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: FindDegeneratesProcess begin
-Debug, T30148: FindDegeneratesProcess finished
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: FindInvalidDataProcess begin
-Debug, T30148: FindInvalidDataProcess finished. Everything seems to be OK.
-Debug, T30148: Skipping OptimizeMeshesProcess
-Debug, T30148: Generate spatially-sorted vertex cache
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (pCube1) | Verts in: 36 out: 24 | ~33.3333%
-Info,  T30148: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3333
-Info,  T30148: Leaving post processing pipeline
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/Testwuson.X
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Warn,  T30148: Unknown data object in animation of .x file
-Skipping one or more lines with the same contents
-Warn,  T30148: Unknown data object in frame in x file
-Skipping one or more lines with the same contents
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Entering post processing pipeline
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: RemoveRedundantMatsProcess finished 
-Debug, T30148: OptimizeGraphProcess begin
-Debug, T30148: OptimizeGraphProcess finished
-Debug, T30148: GenUVCoordsProcess begin
-Debug, T30148: GenUVCoordsProcess finished
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: FindDegeneratesProcess begin
-Debug, T30148: FindDegeneratesProcess finished
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: FindInvalidDataProcess begin
-Debug, T30148: FindInvalidDataProcess finished. Everything seems to be OK.
-Debug, T30148: Skipping OptimizeMeshesProcess
-Debug, T30148: Generate spatially-sorted vertex cache
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (Wuson) | Verts in: 11196 out: 3205 | ~71.3737%
-Info,  T30148: JoinVerticesProcess finished | Verts in: 11196 out: 3205 | ~71.3737
-Info,  T30148: Leaving post processing pipeline
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Warn,  T30148: Length of texture file name is zero. Skipping this texture.
-Warn,  T30148: Unknown data object in mesh in x file
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Entering post processing pipeline
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: RemoveRedundantMatsProcess finished 
-Debug, T30148: OptimizeGraphProcess begin
-Debug, T30148: OptimizeGraphProcess finished
-Debug, T30148: GenUVCoordsProcess begin
-Debug, T30148: GenUVCoordsProcess finished
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: FindDegeneratesProcess begin
-Debug, T30148: FindDegeneratesProcess finished
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: FindInvalidDataProcess begin
-Warn,  T30148: Simplified dummy tracks with just one key
-Skipping one or more lines with the same contents
-Debug, T30148: FindInvalidDataProcess finished. Everything seems to be OK.
-Debug, T30148: Skipping OptimizeMeshesProcess
-Debug, T30148: Generate spatially-sorted vertex cache
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (pCylinder1) | Verts in: 2520 out: 485 | ~80.754%
-Info,  T30148: JoinVerticesProcess finished | Verts in: 2520 out: 485 | ~80.754
-Info,  T30148: Leaving post processing pipeline
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/anim_test.x
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Warn,  T30148: Length of texture file name is zero. Skipping this texture.
-Warn,  T30148: Unknown data object in mesh in x file
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Entering post processing pipeline
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: RemoveRedundantMatsProcess finished 
-Debug, T30148: OptimizeGraphProcess begin
-Debug, T30148: OptimizeGraphProcess finished
-Debug, T30148: GenUVCoordsProcess begin
-Debug, T30148: GenUVCoordsProcess finished
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: FindDegeneratesProcess begin
-Debug, T30148: FindDegeneratesProcess finished
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: FindInvalidDataProcess begin
-Warn,  T30148: Simplified dummy tracks with just one key
-Skipping one or more lines with the same contents
-Debug, T30148: FindInvalidDataProcess finished. Everything seems to be OK.
-Debug, T30148: Skipping OptimizeMeshesProcess
-Debug, T30148: Generate spatially-sorted vertex cache
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (pCylinder1) | Verts in: 2520 out: 485 | ~80.754%
-Info,  T30148: JoinVerticesProcess finished | Verts in: 2520 out: 485 | ~80.754
-Info,  T30148: Leaving post processing pipeline
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/BCN_Epileptic.X
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Warn,  T30148: Unknown data object in animation of .x file
-Skipping one or more lines with the same contents
-Warn,  T30148: Unknown data object in frame in x file
-Skipping one or more lines with the same contents
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Entering post processing pipeline
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: RemoveRedundantMatsProcess finished 
-Debug, T30148: OptimizeGraphProcess begin
-Debug, T30148: OptimizeGraphProcess finished
-Debug, T30148: GenUVCoordsProcess begin
-Debug, T30148: GenUVCoordsProcess finished
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: FindDegeneratesProcess begin
-Debug, T30148: FindDegeneratesProcess finished
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 0, Lines: 0, Triangles: 3, Polygons: 0 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
-Debug, T30148: FindInvalidDataProcess begin
-Debug, T30148: FindInvalidDataProcess finished. Everything seems to be OK.
-Debug, T30148: OptimizeMeshesProcess begin
-Debug, T30148: OptimizeMeshesProcess finished
-Debug, T30148: Generate spatially-sorted vertex cache
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: JoinVerticesProcess begin
-Debug, T30148: Mesh 0 (Torso) | Verts in: 5898 out: 1170 | ~80.1628%
-Debug, T30148: Mesh 1 (Head) | Verts in: 6108 out: 1196 | ~80.4191%
-Debug, T30148: Mesh 2 (Legs) | Verts in: 3372 out: 648 | ~80.7829%
-Info,  T30148: JoinVerticesProcess finished | Verts in: 15378 out: 3014 | ~80.4006
-Info,  T30148: Leaving post processing pipeline
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_a.3d
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Unreal Mesh Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D\'
-Debug, T30148: UNREAL: data file is C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_d.3d
-Debug, T30148: UNREAL: aniv file is C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box_a.3d
-Debug, T30148: UNREAL: uc file is C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3D/box.uc
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/fels.3ds
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Discreet 3DS Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS\'
-Info,  T30148: 3DS file format version: 3
-Warn,  T30148: No hierarchy information has been found in the file. 
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS/testFormatDetection
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Info,  T30148: Found a matching importer for this file format: Discreet 3DS Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3DS\'
-Info,  T30148: 3DS file format version: 3
-Warn,  T30148: 3DS: Skipping TCB animation info
-Skipping one or more lines with the same contents
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AC/Wuson.ac
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: AC3D Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AC\'
-Info,  T30148: AC3D file format version: 11
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test1.amf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Additive manufacturing file format(AMF) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF/test_with_mat.amf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Additive manufacturing file format(AMF) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/AMF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/ASE/ThreeCubesGreen.ASE
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: ASE Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/ASE\'
-Info,  T30148: Line 1: Comment: AsciiExport-Version  2,00 - Tue May 06 17:21:38 2008
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: 3mf Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF\'
-Warn,  T30148: Ignored file of unknown type: 3D/3dmodel.model
-Warn,  T30148: Ignored file of unsupported type CONTENT_TYPES_ARCHIVES[Content_Types].xml
-Debug, T30148: 3D/3dmodel.model
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: 3mf Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF\'
-Warn,  T30148: Ignored file of unknown type: 3D/3dmodel.model
-Warn,  T30148: Ignored file of unsupported type CONTENT_TYPES_ARCHIVES[Content_Types].xml
-Debug, T30148: 3D/3dmodel.model
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF/box.3mf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: 3mf Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/3MF\'
-Warn,  T30148: Ignored file of unknown type: 3D/3dmodel.model
-Warn,  T30148: Ignored file of unsupported type CONTENT_TYPES_ARCHIVES[Content_Types].xml
-Debug, T30148: 3D/3dmodel.model
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Info,  T30148: Load test.3mf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: 3mf Importer.
-Info,  T30148: Import root directory is '.\'
-Warn,  T30148: Ignored file of unknown type: 3D/3DModel.model
-Warn,  T30148: Ignored file of unsupported type CONTENT_TYPES_ARCHIVES[Content_Types].xml
-Debug, T30148: 3D/3DModel.model
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Q3D/earth.q3o
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Quick3D Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Q3D\'
-Info,  T30148: Quick3D File format version: 30
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/formatDetection
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: solid
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_two_solids.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Warn,  T30148: STL: mesh is empty or invalid; no data loaded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/triangle_with_empty_solid.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Warn,  T30148: STL: mesh is empty or invalid; no data loaded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Error, T30148: Validation failed: The mesh emptySolid contains no vertices
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL/Spider_ascii.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/STL\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: PretransformVerticesProcess begin
-Debug, T30148: PretransformVerticesProcess finished
-Info,  T30148: Removed 2 nodes and 0 animation channels (1 output nodes)
-Info,  T30148: Kept 0 lights and 0 cameras.
-Info,  T30148: Moved 1 meshes to WCS (number of output meshes: 1)
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: GenFaceNormalsProcess begin
-Debug, T30148: GenFaceNormalsProcess finished. Normals are already there
-Info,  T30148: Load spiderExport.stl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Stereolithography (STL) Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: TriangulateProcess begin
-Debug, T30148: TriangulateProcess finished. There was nothing to be done.
-Debug, T30148: GenFaceNormalsProcess begin
-Info,  T30148: Normal vectors are undefined for line and point meshes
-Debug, T30148: GenFaceNormalsProcess finished. Normals are already there
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/test.x
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Warn,  T30148: Unknown data object in mesh in x file
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X/OV_GetNextToken
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Info,  T30148: Found a matching importer for this file format: Direct3D XFile Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X\'
-Info,  T30148: Successfully decompressed MSZIP-compressed file
-Error, T30148: Opening brace expected.
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X3D/ComputerKeyboard.x3d
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Extensible 3D(X3D) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/X3D\'
-Info,  T30148: Skipping node "Viewpoint" in Scene.
-Info,  T30148: Skipping node "TouchSensor" in Scene.
-Info,  T30148: Skipping node "TimeSensor" in Scene.
-Info,  T30148: Skipping node "PositionInterpolator" in Scene.
-Info,  T30148: Skipping node "ROUTE" in Scene.
-Skipping one or more lines with the same contents
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/PinkEggFromLW.dxf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF\'
-Debug, T30148: DXF: got 0 entries in BLOCKS
-Debug, T30148: DXF: got 288 polylines and 0 inserted blocks in ENTITIES
-Debug, T30148: DXF: Unexpanded polycount is 288, vertex count is 1152
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/lineTest
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: SECTION
-Info,  T30148: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF\'
-Info,  T30148: DXF Comment: VISION3D DXF
-Debug, T30148: DXF: got 0 entries in BLOCKS
-Debug, T30148: DXF: got 3 polylines and 0 inserted blocks in ENTITIES
-Debug, T30148: DXF: Unexpanded polycount is 3, vertex count is 9
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF/issue_2229.dxf
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/DXF\'
-Debug, T30148: DXF: skipped over control group (273 lines)
-Debug, T30148: DXF: got 2 entries in BLOCKS
-Warn,  T30148: DXF: invalid vertex index, indices are one-based.
-Skipping one or more lines with the same contents
-Warn,  T30148: DXF: unexpected face count in polymesh: 1173, expected 1174
-Warn,  T30148: DXF: invalid vertex index, indices are one-based.
-Skipping one or more lines with the same contents
-Debug, T30148: DXF: got 4 polylines and 0 inserted blocks in ENTITIES
-Debug, T30148: DXF: skipped over control group (3 lines)
-Skipping one or more lines with the same contents
-Debug, T30148: DXF: Unexpanded polycount is 1289, vertex count is 768
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: PretransformVerticesProcess begin
-Debug, T30148: PretransformVerticesProcess finished
-Info,  T30148: Removed 1 nodes and 0 animation channels (1 output nodes)
-Info,  T30148: Kept 0 lights and 0 cameras.
-Info,  T30148: Moved 1 meshes to WCS (number of output meshes: 1)
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_uv.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/cube_binary.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstanceBinary() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceListsBinary() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceListsBinary() succeeded
-Debug, T30148: PLY::DOM::ParseInstanceBinary() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/float-color.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY/issue623.ply
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/PLY\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Warn,  T30148: Unable to parse property instance. Skipping this element instance
-Skipping one or more lines with the same contents
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: Found positive match for header keyword: ply
-Info,  T30148: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: PLY::DOM::ParseInstance() begin
-Debug, T30148: PLY::DOM::ParseHeader() begin
-Debug, T30148: PLY::DOM::ParseHeader() succeeded
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() begin
-Debug, T30148: PLY::DOM::ParseElementInstanceLists() succeeded
-Debug, T30148: PLY::DOM::ParseInstance() succeeded
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: usemtl
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Error, T30148: OBJ: failed to locate material Default, creating new material
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: usemtl
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_with_vertexcolors_uni.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: GenVertexNormalsProcess begin
-Debug, T30148: GenVertexNormalsProcess finished. Normals are already there
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: mtllib
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Error, T30148: OBJ: Unable to locate material file $blobfile.mtl
-Info,  T30148: OBJ: Opening fallback material file $$$___magic___$mtl
-Error, T30148: OBJ: Unable to locate fallback material file $$$___magic___$mtl
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Error, T30148: Validation failed: Mesh  contains no faces
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Error, T30148: OBJ: Invalid component in homogeneous vector (Division by zero)
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Error, T30148: OBJ: Invalid face indice
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_mtllib_after_g.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Error, T30148: OBJ: Unable to locate material file cube_mtllib_after_g.mat
-Info,  T30148: OBJ: Opening fallback material file C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/cube_mtllib_after_g.mtl
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/point_cloud.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/box_without_lineending.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Error, T30148: OBJ: failed to locate material Default, creating new material
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load $$$___magic___$$$.
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: File extension not known, trying signature-based detection
-Debug, T30148: Found positive match for header keyword: v 
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/Example.ogex
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Open Game Engine Exchange.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/light_issue1262.ogex
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Open Game Engine Exchange.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX/empty_camera.ogex
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Open Game Engine Exchange.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OpenGEX\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SIB/heffalump.sib
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Silo SIB Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/SIB\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/AreaLight_269.blend
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Blender 3D Importer 
-http://www.blender3d.org.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND\'
-Info,  T30148: BLEND: Blender version is 2.69 (64bit: true, little endian: true)
-Debug, T30148: BlenderDNA: Got 551 structures with totally 6353 fields
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_const` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_lin` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_quad` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_const` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_lin` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_quad` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_const` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_lin` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_quad` in structure `Lamp`
-Info,  T30148: (Stats) Fields read: 918, pointers resolved: 23, cache hits: 3, cached objects: 19
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: aiLight::mAttenuationXXX - all are zero
-Skipping one or more lines with the same contents
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/box.blend
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Blender 3D Importer 
-http://www.blender3d.org.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND\'
-Info,  T30148: BLEND: Blender version is 2.76 (64bit: true, little endian: true)
-Debug, T30148: BlenderDNA: Got 604 structures with totally 6955 fields
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_const` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_lin` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_quad` in structure `Lamp`
-Info,  T30148: (Stats) Fields read: 668, pointers resolved: 17, cache hits: 3, cached objects: 13
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: aiLight::mAttenuationXXX - all are zero
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/BlenderMaterial_269.blend
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Blender 3D Importer 
-http://www.blender3d.org.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND\'
-Info,  T30148: BLEND: Blender version is 2.69 (64bit: true, little endian: true)
-Debug, T30148: BlenderDNA: Got 551 structures with totally 6353 fields
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_const` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_lin` in structure `Lamp`
-Warn,  T30148: BlendDNA: Did not find a field named `coeff_quad` in structure `Lamp`
-Info,  T30148: (Stats) Fields read: 828, pointers resolved: 17, cache hits: 3, cached objects: 13
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: aiLight::mAttenuationXXX - all are zero
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/plane_2_textures_2_texcoords_279.blend
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Blender 3D Importer 
-http://www.blender3d.org.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND\'
-Info,  T30148: BLEND: Blender version is 2.79 (64bit: true, little endian: true)
-Debug, T30148: BlenderDNA: Got 621 structures with totally 7225 fields
-Info,  T30148: (Stats) Fields read: 597, pointers resolved: 23, cache hits: 6, cached objects: 17
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: aiLight::mAttenuationXXX - all are zero
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND/test_279.blend
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Blender 3D Importer 
-http://www.blender3d.org.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BLEND\'
-Info,  T30148: BLEND: Blender version is 2.79 (64bit: true, little endian: true)
-Debug, T30148: BlenderDNA: Got 621 structures with totally 7224 fields
-Info,  T30148: (Stats) Fields read: 4103, pointers resolved: 22, cache hits: 91, cached objects: 16
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Warn,  T30148: Validation warning: aiLight::mAttenuationXXX - all are zero
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BVH/01_01.bvh
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: BVH Importer (MoCap).
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/BVH\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/cameras.dae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada\'
-Debug, T30148: Collada schema version is 1.4.n
-Warn,  T30148: Collada: Orthographic cameras are not supported.
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load cameraExp.dae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: Collada schema version is 1.4.n
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/lights.dae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada\'
-Debug, T30148: Collada schema version is 1.4.n
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load lightsExp.dae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is '.\'
-Debug, T30148: Collada schema version is 1.4.n
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.dae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada\'
-Debug, T30148: Collada schema version is 1.4.n
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada/duck.zae
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Collada Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Collada\'
-Debug, T30148: Collada schema version is 1.4.n
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/CSM/ThomasFechten.csm
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: CharacterStudio Motion Importer (MoCap).
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/CSM\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy scaling track has been generated
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/B3D/WusonBlitz.b3d
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: BlitzBasic 3D Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/B3D\'
-Info,  T30148: B3D file format version: 1
-Debug, T30148: MakeLeftHandedProcess begin
-Debug, T30148: MakeLeftHandedProcess finished
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/MDC/spider.mdc
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Return To Castle Wolfenstein Mesh Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/MDC\'
-Error, T30148: Invalid MDC file: File contains no valid mesh
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider_out.assbin
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Debug, T30148: (Deleting previous scene)
-Info,  T30148: Found a matching importer for this file format: Assimp Binary Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ/spider.obj
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Wavefront Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OBJ\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/COB/molecule.cob
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: TrueSpace Object Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/COB\'
-Info,  T30148: File format tag: V00.01
-Error, T30148: Encountered unsupported chunk: ObRQ [version: 1, size: 8]
-Error, T30148: Encountered unsupported chunk: ShBx [version: 4, size: 283]
-Error, T30148: Encountered unsupported chunk: ObRQ [version: 1, size: 8]
-Error, T30148: Encountered unsupported chunk: ShBx [version: 4, size: 283]
-Error, T30148: Encountered unsupported chunk: ObRQ [version: 1, size: 8]
-Error, T30148: Encountered unsupported chunk: ShBx [version: 4, size: 283]
-Error, T30148: Encountered unsupported chunk: ObRQ [version: 1, size: 8]
-Error, T30148: Encountered unsupported chunk: ShBx [version: 4, size: 283]
-Error, T30148: Encountered unsupported chunk: PhAn [version: 7, size: 124]
-Debug, T30148: FlipWindingOrderProcess begin
-Debug, T30148: FlipWindingOrderProcess finished
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Ogre/TheThing/Mesh.mesh.xml
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Ogre3D Mesh Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/Ogre/TheThing\'
-Debug, T30148: Reading Mesh
-Debug, T30148:   - Reading geometry of 1406 vertices
-Debug, T30148:     - Contains positions
-Debug, T30148:     - Contains normals
-Debug, T30148:     - Contains 1 texture coords
-Debug, T30148: Reading SubMesh 0
-Debug, T30148:   - Material: 'BlockMat'
-Debug, T30148:   - Uses shared geometry: true
-Debug, T30148:   - Faces 2656
-Debug, T30148: Reading material 'BlockMat'
-Debug, T30148: material 'BlockMat'
-Debug, T30148:  technique 'b2ogre_1331419912.514'
-Debug, T30148:   pass 'b2ogre_1331419912.514'
-Debug, T30148:    ambient 0.8 0.8 0.8
-Debug, T30148:    diffuse 0.64 0.64 0.64
-Debug, T30148:    specular 0.5 0.5 0.5
-Debug, T30148:    emissive 0 0 0
-Debug, T30148:    texture_unit 'b2ogre_1331419912.514'
-Debug, T30148:     texture 'Wrinkles.jpg' type 1 index 0 UV 0
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models-nonbsd/PK3/SGDTT3.pk3
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Quake III BSP Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models-nonbsd/PK3\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OFF/Cube.off
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: OFF Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/OFF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: ValidateDataStructureProcess begin
-Debug, T30148: ValidateDataStructureProcess end
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/NFF/NFF/ManyEarthsNotJustOne.nff
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: Neutral File Format Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/NFF/NFF\'
-Debug, T30148: UpdateImporterScale scale set: %f1
-Info,  T30148: Load C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/XGL/sample_official.xgl
-Debug, T30148: Assimp 5.0.0 amd64 msvc shared singlethreaded
-Info,  T30148: Found a matching importer for this file format: XGL Importer.
-Info,  T30148: Import root directory is 'C:/Users/Arne/Desktop/FBX/assimp-5.0.1/test/models/XGL\'
-Warn,  T30148: XGL: ignoring <ambient> tag
-Debug, T30148: UpdateImporterScale scale set: %f1
-Debug, T30148: RemoveRedundantMatsProcess begin
-Info,  T30148: RemoveRedundantMatsProcess finished. Removed 2 redundant and 0 unused materials.
-Debug, T30148: RemoveRedundantMatsProcess begin
-Debug, T30148: Found positive match in exclusion list: 'Unique Mat2'
-Debug, T30148: Found positive match in exclusion list: 'Complex material name'
-Info,  T30148: RemoveRedundantMatsProcess finished. Removed 1 redundant and 0 unused materials.
-Debug, T30148: RemoveVCProcess begin
-Debug, T30148: Setting AI_SCENE_FLAGS_INCOMPLETE flag
-Debug, T30148: RemoveVCProcess finished. Nothing to be done ...
-Debug, T30148: Mesh 0 (unnamed) | Verts in: 900 out: 300 | ~66.6667%
-Debug, T30148: RemoveVCProcess begin
-Debug, T30148: Setting AI_SCENE_FLAGS_INCOMPLETE flag
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Debug, T30148: RemoveVCProcess begin
-Debug, T30148: Setting AI_SCENE_FLAGS_INCOMPLETE flag
-Info,  T30148: RemoveVCProcess finished. Data structure cleanup has been done.
-Info,  T30148: Mesh exceeds the triangle limit. It will be split ...
-Warn,  T30148: Found 300 degenerated primitives
-Skipping one or more lines with the same contents
-Warn,  T30148: Found 400 degenerated primitives
-Error, T30148: FindInvalidDataProcess fails on mesh uvcoords: INF/NAN was found in a vector component
-Error, T30148: FindInvalidDataProcess fails on mesh normals: Found zero-length vector
-Error, T30148: FindInvalidDataProcess fails on mesh bitangents: All vectors are identical
-Info,  T30148: Removed 5500 weights. Input bones: 30. Output bones: 8
-Debug, T30148: PretransformVerticesProcess begin
-Debug, T30148: PretransformVerticesProcess finished
-Info,  T30148: Removed 31 nodes and 0 animation channels (11 output nodes)
-Info,  T30148: Kept 0 lights and 0 cameras.
-Info,  T30148: Moved 25 meshes to WCS (number of output meshes: 10)
-Debug, T30148: PretransformVerticesProcess begin
-Info,  T30148: PretransformVertices: Copying mesh due to mismatching transforms
-Skipping one or more lines with the same contents
-Debug, T30148: PretransformVerticesProcess finished
-Info,  T30148: Removed 31 nodes and 0 animation channels (31 output nodes)
-Info,  T30148: Kept 0 lights and 0 cameras.
-Info,  T30148: Moved 25 meshes to WCS (number of output meshes: 49)
-Debug, T30148: ScenePreprocessor: Dummy rotation track has been generated
-Debug, T30148: ScenePreprocessor: Dummy position track has been generated
-Debug, T30148: ScenePreprocessor: Setting animation duration
-Debug, T30148: ScenePreprocessor: Adding default material 'DefaultMaterial'
-Debug, T30148: SortByPTypeProcess begin
-Info,  T30148: Points: 5, Lines: 6, Triangles: 5, Polygons: 5 (Meshes, X = removed)
-Debug, T30148: SortByPTypeProcess finished
+Debug, T23788: PretransformVerticesProcess finished
+Info,  T23788: Removed 31 nodes and 0 animation channels (31 output nodes)
+Info,  T23788: Kept 0 lights and 0 cameras.
+Info,  T23788: Moved 25 meshes to WCS (number of output meshes: 49)
+Debug, T23788: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T23788: ScenePreprocessor: Dummy position track has been generated
+Debug, T23788: ScenePreprocessor: Setting animation duration
+Debug, T23788: ScenePreprocessor: Adding default material 'DefaultMaterial'
+Debug, T23788: SortByPTypeProcess begin
+Info,  T23788: Points: 5, Lines: 6, Triangles: 5, Polygons: 5 (Meshes, X = removed)
+Debug, T23788: SortByPTypeProcess finished
