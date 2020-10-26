@@ -21,9 +21,6 @@ namespace Libero
 		};
 
 	public:
-		TransformComponent() = default;
-		~TransformComponent() = default;
-
 		Vector3f GetScale() const;
 		void SetScale(float uniScale);
 
@@ -39,6 +36,8 @@ namespace Libero
 
 		void Translate(const Vector3f& trans, eSpace inSpace = eSpace::World);
 		void Rotate(const Vector3f& eulers, eSpace inSpace = eSpace::World);
+
+		void LookAt(const Vector3f& target);
 
 		Vector3f GetUp() const;
 		Vector3f GetRight() const;

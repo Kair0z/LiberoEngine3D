@@ -13,12 +13,12 @@ namespace Libero
 			return rand() % range + min;
 		}
 
-		inline float Rand(const float& min, const float& max)
+		inline float Rand(const float&, const float& max)
 		{
 			return static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / max));
 		}
 
-		inline double Rand(const double& min, const double& max)
+		inline double Rand(const double&, const double& max)
 		{
 			return static_cast <double> (rand()) / (static_cast <double> (RAND_MAX / max));
 		}

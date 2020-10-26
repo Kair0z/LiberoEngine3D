@@ -12,6 +12,8 @@ private:
 	void SetupSkybox();
 	void SetupVehicle();
 	void SetupBoxes();
+	void SetupCharacter();
 	void SetupCamera();
+	void SetupGround();
 };
 

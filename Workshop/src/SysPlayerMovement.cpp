@@ -12,13 +12,7 @@ using namespace Libero;
 
 void SysPlayerMovement::Start()
 {
-	ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
-		{
-			IEntity* pOwner = pTransform->GetOwner();
-			if (pOwner->GetComponent<CameraComponent>()) return;
 
-			pTransform->Rotate({ -3.14f / 2.f, 0.f, 0.f });
-		});
 }
 
 void SysPlayerMovement::OnEvent(IEvent& e)
@@ -37,7 +31,8 @@ void SysPlayerMovement::OnEvent(IEvent& e)
 
 void SysPlayerMovement::Update()
 {
-	ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
+	
+	/*ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
 		{
 			IEntity* pOwner = pTransform->GetOwner();
 			if (pOwner->GetComponent<CameraComponent>()) return;
@@ -45,7 +40,7 @@ void SysPlayerMovement::Update()
 			float dt = (float)TimeLocator::GetDeltaTime();
 			float speed = 0.5f;
 			pTransform->Rotate({ 0.f, dt *speed, 0.f });
-		});
+		});*/
 }
 
 void SysPlayerMovement::ProcessKeyDown(WPARAM wParam)

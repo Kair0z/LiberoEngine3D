@@ -46,13 +46,13 @@ namespace Libero
 
 	void TransformComponent::UpdateChildren(XMMATRIX parentWorld)
 	{
+		// Calculate my new world:
+		// Update world data from matrix:
+		m_WorldMatrix = parentWorld * m_LocalMatrix;
+		m_World = DataFromMatrix(m_WorldMatrix);
+
 		for (TransformComponent* pChild : m_pChildren)
 		{
-			// Calculate my new world:
-			// Update world data from matrix:
-			m_WorldMatrix = parentWorld * m_LocalMatrix;
-			m_World = DataFromMatrix(m_WorldMatrix);
-			
 			// Pass it through to children:
 			pChild->UpdateChildren(m_WorldMatrix);
 
@@ -110,13 +110,17 @@ namespace Libero
 			break;
 
 		case eSpace::Local:
-			m_Local.Rotation += eulers; // TODO: Change:
+			m_Local.Rotation += eulers;
 			break;
 		}
 		
 		UpdateMatrices();
 	}
 
+	void TransformComponent::LookAt(const Vector3f& target)
+	{
+
+	}
 
 	Vector3f TransformComponent::GetRight() const
 	{

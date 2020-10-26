@@ -8,10 +8,10 @@ namespace Libero
 {
 	void SysTransforms::PostUpdate()
 	{
-		/*ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
+		ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
 			{
-				
-
-			});*/
+				// TODO: update children via deferred pattern
+				pTransform->UpdateChildren(XMMatrixIdentity());
+			});
 	}
 }
