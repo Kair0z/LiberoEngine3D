@@ -27,10 +27,16 @@ namespace Libero
 
 	};
 
+	struct ImGuiSettings
+	{
+		std::string iniFilePath = "../Resources/Core/Editor/imgui.ini";
+	};
+
 	struct Settings
 	{
 		static WindowSettings Window;
 		static DXSettings DX;
 		static GameSettings Game;
+		static ImGuiSettings ImGui;
 	};
 }

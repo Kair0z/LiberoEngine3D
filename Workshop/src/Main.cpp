@@ -22,6 +22,7 @@ int main()
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
 {
+	srand(time(NULL));
 	Engine* pEngine = new Engine();
 	Game* pGame = Libero::CreateGame();
 

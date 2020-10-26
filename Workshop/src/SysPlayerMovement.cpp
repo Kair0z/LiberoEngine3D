@@ -33,7 +33,6 @@ void SysPlayerMovement::OnEvent(IEvent& e)
 		{
 			ProcessMouseMove(e);
 		});
-	
 }
 
 void SysPlayerMovement::Update()

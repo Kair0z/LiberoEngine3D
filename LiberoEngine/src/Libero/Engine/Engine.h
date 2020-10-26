@@ -5,6 +5,7 @@
 #include "Libero/Graphics/GraphicsMaster.h"
 #include "Libero/Interfaces/Observer/IObserver.h"
 #include "Libero/Time/Time.h"
+#include "Libero/Physics/PhysicsMaster.h"
 
 namespace Libero
 {
@@ -49,6 +50,7 @@ namespace Libero
 		Logger* m_pLogger;
 		FileMaster* m_pFileMaster;
 		MaterialMaster* m_pMaterialMaster;
+		PhysicsMaster* m_pPhysicsMaster;
 
 		bool m_ShouldQuit = false;
 		bool m_GameRunning = false;

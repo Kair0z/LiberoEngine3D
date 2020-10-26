@@ -2,7 +2,7 @@
 #include "Editor.h"
 #include "ImGuiStyleLibrary.h"
 #include "MyWindows/MyImGuiWindows.h"
-
+#include "Libero/Settings/Settings.h"
 #include "Libero/Graphics/GraphicsMaster.h"
 
 namespace Libero
@@ -16,6 +16,8 @@ namespace Libero
 		m_pIO = &ImGui::GetIO();
 
 		ImGuiStyles::GoldBlackTheme();
+
+		m_pIO->IniFilename = Settings::ImGui.iniFilePath.c_str();
 
 		InitWindows();
 	}

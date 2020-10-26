@@ -59,7 +59,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)LiberoEngine\src;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)LiberoEngine\src;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;$(SolutionDir)Libs\PhysX\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -67,11 +67,11 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>Effects11d.lib;DirectXTex.lib;assimp.lib;%(AdditionalDependencies);DirectXTK.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DX_Tex\lib\x64\Debug;$(SolutionDir)Libs\DX_Effects11\lib\x64\Debug;%(AdditionalLibraryDirectories);$(SolutionDir)Libs\Assimp\lib\x64\$(Configuration);$(SolutionDir)Libs\DX_TK\lib\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DX_Tex\lib\x64\Debug;$(SolutionDir)Libs\DX_Effects11\lib\x64\Debug;%(AdditionalLibraryDirectories);$(SolutionDir)Libs\Assimp\lib\x64\$(Configuration);$(SolutionDir)Libs\DX_TK\lib\$(Platform)\$(Configuration);$(SolutionDir)Libs\PhysX\lib</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>xcopy "$(SolutionDir)Resources" "$(SolutionDir)bin\$(Configuration)_$(Platform)\Resources" /e /y /i
-xcopy "$(SolutionDir)Libs\Assimp\bin\x64\$(Configuration)\assimp-vc142-mtd.dll" "$(SolutionDir)bin\$(Configuration)_$(Platform)\Workshop\"  /y /i</Command>
+xcopy "$(SolutionDir)Depend\$(Configuration)" "$(SolutionDir)bin\$(Configuration)_$(Platform)\$(ProjectName)" /e /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -82,7 +82,7 @@ xcopy "$(SolutionDir)Libs\Assimp\bin\x64\$(Configuration)\assimp-vc142-mtd.dll" 
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)LiberoEngine\src;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)LiberoEngine\src;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;$(SolutionDir)Libs\PhysX\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -92,11 +92,11 @@ xcopy "$(SolutionDir)Libs\Assimp\bin\x64\$(Configuration)\assimp-vc142-mtd.dll" 
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>Effects11.lib;DirectXTex.lib;assimp.lib;%(AdditionalDependencies);DirectXTK.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DX_Tex\lib\x64\Release;$(SolutionDir)Libs\DX_Effects11\lib\x64\Release;%(AdditionalLibraryDirectories);$(SolutionDir)Libs\Assimp\lib\x64\Debug;$(SolutionDir)Libs\DX_TK\lib\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DX_Tex\lib\x64\Release;$(SolutionDir)Libs\DX_Effects11\lib\x64\Release;%(AdditionalLibraryDirectories);$(SolutionDir)Libs\Assimp\lib\x64\Debug;$(SolutionDir)Libs\DX_TK\lib\$(Platform)\$(Configuration);$(SolutionDir)Libs\PhysX\lib</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy "$(SolutionDir)Resources" "$(SolutionDir)bin\$(Configuration)_$(Platform)\Resources" /e /y
-xcopy "$(SolutionDir)Libs\Assimp\bin\x64\Debug\assimp-vc142-mtd.dll" "$(SolutionDir)bin\$(Configuration)_$(Platform)\Workshop\"  /y /i</Command>
+      <Command>xcopy "$(SolutionDir)Resources" "$(SolutionDir)bin\$(Configuration)_$(Platform)\Resources" /e /y /i
+xcopy "$(SolutionDir)Depend\$(Configuration)" "$(SolutionDir)bin\$(Configuration)_$(Platform)\$(ProjectName)" /e /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -105,12 +105,14 @@ xcopy "$(SolutionDir)Libs\Assimp\bin\x64\Debug\assimp-vc142-mtd.dll" "$(Solution
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\GeometryPrefabs.cpp" />
     <ClCompile Include="src\EmptyScene.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\MainGame.cpp" />
     <ClCompile Include="src\SysPlayerMovement.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\GeometryPrefabs.h" />
     <ClInclude Include="src\EmptyScene.h" />
     <ClInclude Include="src\MainGame.h" />
     <ClInclude Include="src\SysPlayerMovement.h" />

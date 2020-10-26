@@ -3,8 +3,10 @@
 
 namespace Libero
 {
-	const IMaterial* MaterialMaster::GetMaterial(const std::string& name) 
+	IMaterial* MaterialMaster::GetMaterial(const std::string& name) 
 	{
+		if (m_MaterialMap.find(name) == m_MaterialMap.end()) return nullptr;
+
 		return m_MaterialMap[name];
 	}
 

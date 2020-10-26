@@ -57,10 +57,14 @@
     <ClCompile Include="src\Libero\Editor\Editor.cpp" />
     <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Inspector.cpp" />
     <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Hierarchy.cpp" />
+    <ClCompile Include="src\Libero\Components\ImageRenderComponent.cpp" />
+    <ClCompile Include="src\Libero\Graphics\2DRendering\ImageRenderer.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_GameView.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Materials\Materials.cpp" />
+    <ClCompile Include="src\Libero\Physics\PhysicsMaster.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Libero\Game.h" />
-    <ClInclude Include="src\Libero.h" />
     <ClInclude Include="src\Liber_pch.h" />
     <ClInclude Include="src\Libero\Math\LiberoMath.h" />
     <ClInclude Include="src\Libero\Math\Vector.h" />
@@ -154,6 +158,13 @@
     <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Inspector.h" />
     <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Hierarchy.h" />
     <ClInclude Include="src\Libero\Components\ImGuiTooltips\ImGui_CompWidget.h" />
+    <ClInclude Include="src\Libero\Components\ImageRenderComponent.h" />
+    <ClInclude Include="src\Libero\Graphics\2DRendering\ImageRenderer.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_GameView.h" />
+    <ClInclude Include="src\Libero\Graphics\Materials\Materials.h" />
+    <ClInclude Include="src\Libero\Math\Color\Colors.h" />
+    <ClInclude Include="src\Libero\Physics\PhysicsMaster.h" />
+    <ClInclude Include="src\Libero\Math\Random.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Libero\ECS\Core\ISystem.inl" />

@@ -81,11 +81,12 @@ namespace Libero
 				m_pLogger->LogInfo(std::to_string(m_pTime->FPS()));
 				cap = 0.f;
 			}
-			
-			GameLoop();
+
+			// Run Engine
 			EngineLoop();
 
-			m_pGraphicsMaster->Present();
+			// Run Game
+			GameLoop();
 		}
 	}
 
@@ -159,18 +160,14 @@ namespace Libero
 	{
 		if (m_GameRunning) return;
 		m_GameRunning = true;
-		//m_pECSMaster->GameStart();
-
-		m_pLogger->LogInfo("GameStart!!!");
+		m_pECSMaster->GameStart();
 	}
 
 	void Engine::GameStop()
 	{
 		if (!m_GameRunning) return;
 		m_GameRunning = false;
-
-		//m_pECSMaster->GameStop();
-		m_pLogger->LogInfo("GameStop!!!");
+		m_pECSMaster->GameStop();
 	}
 
 	void Engine::GameLoop()
@@ -191,8 +188,16 @@ namespace Libero
 		m_pInputMaster->Update();
 
 		// UI Render:
-		m_pGraphicsMaster->OpenEngineRender();
+		m_pGraphicsMaster->OpenWindowRender();
+		
+#ifdef _DEBUG
 		m_pEditor->Render();
+#else
+		m_pGraphicsMaster->RenderGameFrame();
+#endif
+		
+
+		m_pGraphicsMaster->Present();
 	}
 
 	void Engine::OnEvent(IEvent& e)

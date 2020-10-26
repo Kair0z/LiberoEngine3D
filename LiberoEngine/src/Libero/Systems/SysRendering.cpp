@@ -30,4 +30,9 @@ namespace Libero
 				pMesh->Render();
 			});
 	}
+
+	void SysRendering::RenderCanvas() const
+	{
+
+	}
 }

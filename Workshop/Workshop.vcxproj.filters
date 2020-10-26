@@ -7,6 +7,9 @@
     <ClCompile Include="src\SysPlayerMovement.cpp">
       <Filter>MySystems</Filter>
     </ClCompile>
+    <ClCompile Include="src\GeometryPrefabs.cpp">
+      <Filter>MyPrefabs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MainGame.h" />
@@ -14,10 +17,16 @@
     <ClInclude Include="src\SysPlayerMovement.h">
       <Filter>MySystems</Filter>
     </ClInclude>
+    <ClInclude Include="src\GeometryPrefabs.h">
+      <Filter>MyPrefabs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="MySystems">
       <UniqueIdentifier>{73785555-9762-4c91-a60f-4581386fe78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPrefabs">
+      <UniqueIdentifier>{5330f49f-e189-48e2-91d0-da19a86d8035}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

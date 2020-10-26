@@ -29,6 +29,7 @@ namespace Libero
 		DefGetSet(size_t, VertexCapacity, m_VertexCapacity);
 
 		void SetMaterial(IMaterial* pMaterial);
+		IMaterial* GetMaterial() const;
 
 		void Render();
 

@@ -8,6 +8,9 @@ namespace Libero
 	public:
 		void Initialize() override;
 		void Render() const override;
+
+	private:
+		void RenderCanvas() const;
 	};
 }
 

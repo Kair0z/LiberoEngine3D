@@ -9,6 +9,7 @@
 #include "Libero/Graphics/DXUtils.h"
 #include "Libero/Graphics/Materials/MaterialMaster.h"
 #include "Libero/Graphics/Materials/Material.h"
+#include "Libero/Graphics/Materials/Materials.h"
 
 #include "assimp/mesh.h"
 
@@ -26,7 +27,7 @@ namespace Libero
 		if (m_IsInitialized) return;
 
 		// Setup default material:
-		//m_pDefaultMaterial = MaterialLocator::Get()->CreateMaterial<
+		m_pDefaultMaterial = LiberoMaterials::DefaultMaterial();
 
 		InitMeshData(pMeshFilter);
 		InitBuffer();
@@ -133,6 +134,11 @@ namespace Libero
 	void MeshRenderComponent::SetMaterial(IMaterial* pMaterial)
 	{
 		m_pMaterial = pMaterial;
+	}
+
+	IMaterial* MeshRenderComponent::GetMaterial() const
+	{
+		return m_pMaterial;
 	}
 
 	void MeshRenderComponent::Render()

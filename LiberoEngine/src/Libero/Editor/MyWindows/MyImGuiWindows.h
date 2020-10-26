@@ -12,19 +12,7 @@
 
 namespace Libero
 {
-	class ImGui_Editor final : public ImGuiWindow
-	{
-		virtual void ImGuiRender() override
-		{
-			Begin("Editor", m_EditEnable);
-
-			ID3D11ShaderResourceView* pFrame = GraphicsLocator::Get()->GetFrame();
-			ImVec2 size = ImGui::GetWindowSize();
-			ImGui::Image((void*)pFrame, size);
-
-			ImGui::End();
-		}
-	};
+	
 
 	class ImGui_Logger final : public ImGuiWindow
 	{
@@ -98,3 +86,4 @@ namespace Libero
 #include "ImGui_Resources.h"
 #include "ImGui_Inspector.h"
 #include "ImGui_Hierarchy.h"
+#include "ImGui_GameView.h"

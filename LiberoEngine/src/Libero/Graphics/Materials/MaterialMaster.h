@@ -21,7 +21,7 @@ namespace Libero
 			return pMat;
 		}
 
-		const IMaterial* GetMaterial(const std::string& name);
+		IMaterial* GetMaterial(const std::string& name);
 		void DestroyMaterial(const std::string& name);
 
 		~MaterialMaster();

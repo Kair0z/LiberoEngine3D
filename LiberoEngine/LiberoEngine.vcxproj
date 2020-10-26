@@ -62,7 +62,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Liber_pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>src;src\Libero\Misc;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\VLD\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;src\Libero\Misc;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\VLD\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;$(SolutionDir)Libs\PhysX\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -88,7 +88,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Liber_pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>src;src\Libero\Misc;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\VLD\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;src\Libero\Misc;$(SolutionDir)Libs\DX_Effects11\include;$(SolutionDir)Libs\DX_Tex\include;$(SolutionDir)Libs\VLD\include;$(SolutionDir)Libs\Assimp\include;$(SolutionDir)Libs\DX_TK\include;$(SolutionDir)Libs\PhysX\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -106,10 +106,15 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Libero\Physics\PhysicsMaster.cpp" />
+    <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_GameView.cpp" />
+    <ClCompile Include="src\Libero\Graphics\2DRendering\ImageRenderer.cpp" />
+    <ClCompile Include="src\Libero\Components\ImageRenderComponent.cpp" />
     <ClCompile Include="src\Libero\Components\InputComponent.cpp" />
     <ClCompile Include="src\Libero\Components\SkyDomeRenderComponent.cpp" />
     <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Hierarchy.cpp" />
     <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_Inspector.cpp" />
+    <ClCompile Include="src\Libero\Graphics\Materials\Materials.cpp" />
     <ClCompile Include="src\Libero\Graphics\Skydome\SkyDome.cpp" />
     <ClCompile Include="src\Libero\Graphics\Materials\MatDefaultShaded.cpp" />
     <ClCompile Include="src\Libero\Graphics\Materials\Material.cpp" />
@@ -185,11 +190,17 @@
     <ClCompile Include="src\Libero\Systems\SysInput.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Libero\Math\Random.h" />
+    <ClInclude Include="src\Libero\Physics\PhysicsMaster.h" />
+    <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_GameView.h" />
+    <ClInclude Include="src\Libero\Graphics\2DRendering\ImageRenderer.h" />
+    <ClInclude Include="src\Libero\Components\ImageRenderComponent.h" />
     <ClInclude Include="src\Libero\Components\ImGuiTooltips\ImGui_CompWidget.h" />
     <ClInclude Include="src\Libero\Components\InputComponent.h" />
     <ClInclude Include="src\Libero\Components\SkyDomeRenderComponent.h" />
     <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Hierarchy.h" />
     <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_Inspector.h" />
+    <ClInclude Include="src\Libero\Graphics\Materials\Materials.h" />
     <ClInclude Include="src\Libero\Graphics\Skydome\SkyDome.h" />
     <ClInclude Include="src\Libero\Graphics\Materials\MatDefaultShaded.h" />
     <ClInclude Include="src\Libero\Graphics\Materials\Material.h" />
@@ -208,6 +219,7 @@
     <ClInclude Include="src\Libero\Logging\Logger.h" />
     <ClInclude Include="src\Libero\Graphics\CameraMaster.h" />
     <ClInclude Include="src\Libero\Components\CameraComponent.h" />
+    <ClInclude Include="src\Libero\Math\Color\Colors.h" />
     <ClInclude Include="src\Libero\Misc\Colors.h" />
     <ClInclude Include="src\Libero\Misc\LiberoUtils.h" />
     <ClInclude Include="src\Libero\Scene\SceneMaster.h" />
@@ -257,7 +269,6 @@
     <ClInclude Include="src\Libero\Math\Vector3.h" />
     <ClInclude Include="src\Libero\Math\Vector4.h" />
     <ClInclude Include="src\Libero\Settings\Settings.h" />
-    <ClInclude Include="src\Libero.h" />
     <ClInclude Include="src\Libero\API.h" />
     <ClInclude Include="src\Libero\Game.h" />
     <ClInclude Include="src\Libero\Editor\ImGui\imconfig.h" />

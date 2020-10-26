@@ -5,6 +5,7 @@
 #include "Libero/Engine/Engine.h"
 #include "Texture2D.h"
 #include "Colors.h"
+#include "2DRendering/ImageRenderer.h"
 
 namespace Libero
 {
@@ -21,8 +22,9 @@ namespace Libero
 		SafeRelease(m_pSwapchain);
 		SafeRelease(m_pDXGIFactory);
 
-		SafeDelete(m_pWindowRenderTarget);
+		SafeDelete(m_pMainWindowRenderTarget);
 		SafeDelete(m_pGameRenderTarget);
+		SafeDelete(m_pImageRenderer);
 	}
 
 	void GraphicsMaster::Initialize(HINSTANCE winInstance)
@@ -36,11 +38,18 @@ namespace Libero
 		InitRenderTargets();
 
 		m_IsInitialized = true;
+		GraphicsLocator::Provide(this);
+
+		m_pImageRenderer = new ImageRenderer();
+		m_pImageRenderer->Initialize();
 	}
 
 	void GraphicsMaster::SetRenderTarget(RenderTarget* pRT)
 	{
 		if (!pRT) return;
+
+		ID3D11ShaderResourceView* nullSRVs[1] = { nullptr };
+		m_pDeviceContext->PSSetShaderResources(0, 1, nullSRVs);
 
 		auto rtView = pRT->GetRenderTargetView();
 		m_pDeviceContext->OMSetRenderTargets(1, &rtView, pRT->GetDepthStencilView());
@@ -51,22 +60,15 @@ namespace Libero
 
 	void GraphicsMaster::OpenGameRender()
 	{
-		if (!m_IsInitialized) return;
-
 		SetRenderTarget(m_pGameRenderTarget);
 		ColorRGBA color = WithAlpha(Libero::Colors::Purple, 1.f);
 		m_pDeviceContext->ClearRenderTargetView(m_pCurrentRenderTarget->GetRenderTargetView(), &color.x);
 		m_pDeviceContext->ClearDepthStencilView(m_pCurrentRenderTarget->GetDepthStencilView(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0);
 	}
 
-	void GraphicsMaster::CloseGameRender()
+	void GraphicsMaster::OpenWindowRender()
 	{
-
-	}
-
-	void GraphicsMaster::OpenEngineRender()
-	{
-		SetRenderTarget(m_pWindowRenderTarget);
+		SetRenderTarget(m_pMainWindowRenderTarget);
 		const float color[4]{ 0.f, 0.f, 0.f, 255.f };
 		m_pDeviceContext->ClearRenderTargetView(m_pCurrentRenderTarget->GetRenderTargetView(), color);
 		m_pDeviceContext->ClearDepthStencilView(m_pCurrentRenderTarget->GetDepthStencilView(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.f, 0);
@@ -74,15 +76,18 @@ namespace Libero
 
 	void GraphicsMaster::Present()
 	{
-		if (!m_IsInitialized) return;
-
 		// Present Backbuffer
 		m_pSwapchain->Present(0, 0);
 	}
 
-	ID3D11ShaderResourceView* GraphicsMaster::GetFrame()
+	ID3D11ShaderResourceView* GraphicsMaster::GetGameFrame()
 	{
 		return m_pGameRenderTarget->GetColorSRV();
+	}
+
+	void GraphicsMaster::RenderGameFrame()
+	{
+		m_pImageRenderer->RenderImmediate(GetGameFrame(), {});
 	}
 
 	Texture2D* GraphicsMaster::CreateTexture(const std::string& fName) const
@@ -139,7 +144,7 @@ namespace Libero
 		m_pGameRenderTarget->Create(d);
 
 		// Create final Window render target:
-		m_pWindowRenderTarget = new RenderTarget(m_pDevice);
+		m_pMainWindowRenderTarget = new RenderTarget(m_pDevice);
 		RT_Desc desc2{};
 		// Set colorbuffer as the backbuffer of the swapchain:
 		ID3D11Texture2D* pBackBuffer = nullptr;
@@ -148,7 +153,7 @@ namespace Libero
 		rtDesc.m_pColorBuffer = pBackBuffer;
 		rtDesc.m_W = Settings::Window.Dimensions.x;
 		rtDesc.m_H = Settings::Window.Dimensions.y;
-		m_pWindowRenderTarget->Create(rtDesc);
+		m_pMainWindowRenderTarget->Create(rtDesc);
 	}
 
 	void GraphicsMaster::InitWindow()

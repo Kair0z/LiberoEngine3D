@@ -1,5 +1,5 @@
 #pragma once
-#include <Libero.h>
+#include "Libero/Game.h"
 
 class MainGame final : public Libero::Game
 {

@@ -40,6 +40,7 @@ namespace Libero
 
 	using ColorRGBA = Vector<float, 4>;
 	using ColorRGB = Vector<float, 3>;
+	using Color = ColorRGB;
 
 	ColorRGBA WithAlpha(const ColorRGB& col, float a);
 

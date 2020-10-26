@@ -26,10 +26,11 @@ namespace Libero
 		void SetRenderTarget(RenderTarget* pRenderTarget);
 
 		void OpenGameRender();
-		void CloseGameRender();
-		void OpenEngineRender();
+		void OpenWindowRender();
 		void Present();
-		ID3D11ShaderResourceView* GetFrame();
+
+		ID3D11ShaderResourceView* GetGameFrame();
+		void RenderGameFrame();
 
 		Texture2D* CreateTexture(const std::string& fName) const;
 
@@ -42,6 +43,9 @@ namespace Libero
 		void InitDX();
 		void InitRenderTargets();
 
+		// ImageRenderer:
+		class ImageRenderer* m_pImageRenderer;
+
 		// Window/DX-related data:
 		HINSTANCE m_WinInstance;
 		HWND m_WindowHandle;
@@ -51,7 +55,7 @@ namespace Libero
 		IDXGIFactory* m_pDXGIFactory;
 
 		RenderTarget* m_pCurrentRenderTarget = nullptr;
-		RenderTarget* m_pWindowRenderTarget = nullptr;
+		RenderTarget* m_pMainWindowRenderTarget = nullptr;
 		RenderTarget* m_pGameRenderTarget = nullptr;
 
 		D3D11_VIEWPORT m_Viewport;
