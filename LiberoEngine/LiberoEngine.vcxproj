@@ -106,6 +106,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Libero\Math\Quaternion\Quaternion.cpp" />
     <ClCompile Include="src\Libero\Physics\PhysicsMaster.cpp" />
     <ClCompile Include="src\Libero\Editor\MyWindows\ImGui_GameView.cpp" />
     <ClCompile Include="src\Libero\Graphics\2DRendering\ImageRenderer.cpp" />
@@ -190,6 +191,7 @@
     <ClCompile Include="src\Libero\Systems\SysInput.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Libero\Math\Quaternion\Quaternion.h" />
     <ClInclude Include="src\Libero\Math\Random.h" />
     <ClInclude Include="src\Libero\Physics\PhysicsMaster.h" />
     <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_GameView.h" />
@@ -264,10 +266,10 @@
     <ClInclude Include="src\Libero\Graphics\RenderTarget.h" />
     <ClInclude Include="src\Libero\Engine\Engine.h" />
     <ClInclude Include="src\Libero\Math\LiberoMath.h" />
-    <ClInclude Include="src\Libero\Math\Vector.h" />
-    <ClInclude Include="src\Libero\Math\Vector2.h" />
-    <ClInclude Include="src\Libero\Math\Vector3.h" />
-    <ClInclude Include="src\Libero\Math\Vector4.h" />
+    <ClInclude Include="src\Libero\Math\Vector\Vector.h" />
+    <ClInclude Include="src\Libero\Math\Vector\Vector2.h" />
+    <ClInclude Include="src\Libero\Math\Vector\Vector3.h" />
+    <ClInclude Include="src\Libero\Math\Vector\Vector4.h" />
     <ClInclude Include="src\Libero\Settings\Settings.h" />
     <ClInclude Include="src\Libero\API.h" />
     <ClInclude Include="src\Libero\Game.h" />

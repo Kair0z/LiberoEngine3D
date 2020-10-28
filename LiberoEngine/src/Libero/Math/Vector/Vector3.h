@@ -1,7 +1,5 @@
 #pragma once
 
-#ifndef LIBERO_MATH_VECTOR3
-#define LIBERO_MATH_VECTOR3
 #include <cassert>
 #include "Vector.h"
 #include <ostream>
@@ -107,6 +105,8 @@ namespace Libero
 		Vector<T, 3> operator-=(const Vector<T, 3>& other);
 		Vector<T, 3> operator*=(float scalar);
 		Vector<T, 3> operator/=(float scalar);
+
+		
 	};
 
 
@@ -285,4 +285,3 @@ namespace Libero
 		return _data[idx];
 	}
 }
-#endif

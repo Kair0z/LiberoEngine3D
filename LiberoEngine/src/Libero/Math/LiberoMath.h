@@ -1,9 +1,10 @@
 #pragma once
 #include "Liber_pch.h"
-#include "Vector.h"
-#include "Vector2.h"
-#include "Vector3.h"
-#include "Vector4.h"
+#include "Quaternion/Quaternion.h"
+#include "Vector/Vector.h"
+#include "Vector/Vector2.h"
+#include "Vector/Vector3.h"
+#include "Vector/Vector4.h"
 
 using namespace DirectX;
 namespace Libero

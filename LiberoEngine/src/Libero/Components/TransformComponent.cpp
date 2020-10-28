@@ -117,7 +117,7 @@ namespace Libero
 		UpdateMatrices();
 	}
 
-	void TransformComponent::LookAt(const Vector3f& target)
+	void TransformComponent::LookAt(const Vector3f&)
 	{
 
 	}

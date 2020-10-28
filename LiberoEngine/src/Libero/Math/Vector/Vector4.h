@@ -1,7 +1,5 @@
 #pragma once
 
-#ifndef LIBERO_MATH_VECTOR4
-#define LIBERO_MATH_VECTOR4
 #include <cassert>
 #include "Vector.h"
 #include <ostream>
@@ -307,4 +305,3 @@ namespace Libero
 		return _data[idx];
 	}
 }
-#endif
