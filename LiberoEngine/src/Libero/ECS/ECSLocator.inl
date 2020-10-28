@@ -1,7 +1,7 @@
 #include "Liber_pch.h"
 #include "ECSMaster.h"
 
-#define INVALID_SERVICE(service) (!service || !service->m_IsInitialized)
+#define INVALID_SERVICE(service) (!service)
 
 namespace Libero
 {

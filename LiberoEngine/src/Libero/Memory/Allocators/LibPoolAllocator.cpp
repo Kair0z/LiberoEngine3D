@@ -47,7 +47,6 @@ namespace Libero
 
 	void LibPoolAllocator::Clear()
 	{
-		// TODO: understand
 		size_t amountOfObjects = (size_t)float(m_Size) / m_ObjectSize;
 
 		union

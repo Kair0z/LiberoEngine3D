@@ -16,8 +16,6 @@ namespace Libero
 		ECSMaster();
 		~ECSMaster();
 
-		void Initialize();
-
 		void GameInitialize();
 		void GameStart();
 		void GameUpdate();
@@ -27,8 +25,6 @@ namespace Libero
 		void OnEvent(IEvent& e);
 
 	private:
-		bool m_IsInitialized;
-
 		EntityMaster* m_pEntityMaster;
 		ComponentMaster* m_pComponentMaster;
 		SystemMaster* m_pSystemMaster;

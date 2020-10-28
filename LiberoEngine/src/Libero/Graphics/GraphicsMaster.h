@@ -45,6 +45,7 @@ namespace Libero
 
 		// ImageRenderer:
 		class ImageRenderer* m_pImageRenderer;
+		class DebugRenderer* m_pDebugRenderer;
 
 		// Window/DX-related data:
 		HINSTANCE m_WinInstance;

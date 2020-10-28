@@ -69,18 +69,9 @@ namespace Libero
 
 		// Init Game:
 		InitGame();
-
-		float cap{};
 		while (!m_ShouldQuit)
 		{
-			// TODO: make this multithreaded:
 			m_pTime->Tick();
-			cap += (float)m_pTime->Delta();
-			if (cap > 1.0f)
-			{
-				m_pLogger->LogInfo(std::to_string(m_pTime->FPS()));
-				cap = 0.f;
-			}
 
 			// Run Engine
 			EngineLoop();
@@ -107,7 +98,6 @@ namespace Libero
 		m_pEditor->Initialize();
 
 		m_pECSMaster = new ECSMaster();
-		m_pECSMaster->Initialize();
 		ECSLocator::Provide(m_pECSMaster);
 
 		m_pSubjectMaster = new SubjectMaster();

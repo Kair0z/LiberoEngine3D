@@ -22,6 +22,7 @@
 #pragma comment( lib, "d3dcompiler.lib" ) // shader compiler
 
 #include "WICTextureLoader.h"
+#include "Effects.h"
 #pragma comment (lib, "DirectXTK.lib")
 
 // DXMath:

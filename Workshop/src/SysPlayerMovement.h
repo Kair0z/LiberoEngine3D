@@ -6,7 +6,6 @@
 class SysPlayerMovement final : public Libero::System<SysPlayerMovement>
 {
 public:
-	void Start() override;
 	void OnEvent(Libero::IEvent& e) override;
 	void Update() override;
 
