@@ -13,33 +13,24 @@ namespace Libero
 		}
 	}
 
-	inline void EntityMaster::Initialize()
-	{
-		m_IsInitialized = true;
-	}
 
 	template<class EType, typename ...creationArgs>
-	inline EntityID EntityMaster::CreateEntity(creationArgs&& ...params)
+	inline EntityID EntityMaster::CreateEntity(creationArgs... params)
 	{
 		// Get Container:
 		// If it doesn't exist, it'll create a new one internally:
 		void* pObjMem = GetEntityContainer<EType>()->CreateObj();
 
-		// Create Unique ID:
-		EntityID eID = m_HandleTable.AcquireHandle((EType*)pObjMem);
-
 		// Create object:
 		IEntity* pEntity = new (pObjMem)EType(std::forward<creationArgs>(params)...);
 
-		// Setup private data:
-		pEntity->m_ID = eID;
-		// Set componentmasterRef
-		// Set entityMasterRef
+		// Create Unique ID:
+		pEntity->m_ID = m_HandleTable.AcquireHandle((EType*)pObjMem);
 
 		// Initialize:
 		pEntity->Initialize();
 
-		return eID;
+		return pEntity->m_ID;
 	}
 
 	inline void EntityMaster::DestroyEntity(const EntityID id, bool)

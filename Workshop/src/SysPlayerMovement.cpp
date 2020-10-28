@@ -2,18 +2,10 @@
 #include "Libero/Components/CameraComponent.h"
 #include "Libero/Components/TransformComponent.h"
 #include "Libero/Logging/Logger.h"
-
 #include "Libero/Interfaces/Events/EventDispatcher.h"
-
-
 #include "Libero/Time/Time.h"
 
 using namespace Libero;
-
-void SysPlayerMovement::Start()
-{
-
-}
 
 void SysPlayerMovement::OnEvent(IEvent& e)
 {
@@ -31,8 +23,7 @@ void SysPlayerMovement::OnEvent(IEvent& e)
 
 void SysPlayerMovement::Update()
 {
-	
-	/*ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
+	ForEachComponent<TransformComponent>([](TransformComponent* pTransform)
 		{
 			IEntity* pOwner = pTransform->GetOwner();
 			if (pOwner->GetComponent<CameraComponent>()) return;
@@ -40,13 +31,13 @@ void SysPlayerMovement::Update()
 			float dt = (float)TimeLocator::GetDeltaTime();
 			float speed = 0.5f;
 			pTransform->Rotate({ 0.f, dt *speed, 0.f });
-		});*/
+		});
 }
 
 void SysPlayerMovement::ProcessKeyDown(WPARAM wParam)
 {
 	Vector3f movement{};
-	float scale{ 50.f };
+	float scale{ 400.f };
 	double dt = TimeLocator::GetDeltaTime();
 	scale *= (float)dt;
 	switch (wParam)
@@ -59,8 +50,7 @@ void SysPlayerMovement::ProcessKeyDown(WPARAM wParam)
 
 	ForEachComponent<CameraComponent>([&movement](CameraComponent* pCam)
 		{
-			pCam->GetOwner()->GetComponent<TransformComponent>()->Translate({ movement.x, 0.f, 0.f });
-			pCam->GetOwner()->GetComponent<TransformComponent>()->Rotate({ 0.f, 0.f, 0.f });
+			pCam->GetOwner()->GetComponent<TransformComponent>()->Translate({ movement.x, 0.f, 0.f }, TransformComponent::eSpace::Local);
 		});
 }
 

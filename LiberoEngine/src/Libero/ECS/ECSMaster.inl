@@ -6,10 +6,6 @@
 namespace Libero
 {
 	inline ECSMaster::ECSMaster()
-		: m_pComponentMaster{nullptr}
-		, m_pEntityMaster{nullptr}
-		, m_pSystemMaster{nullptr}
-		, m_IsInitialized{false}
 	{
 		m_pEntityMaster = new EntityMaster();
 		m_pComponentMaster = new ComponentMaster();
@@ -23,47 +19,29 @@ namespace Libero
 		SafeDelete(m_pComponentMaster);
 	}
 
-	inline void ECSMaster::Initialize()
-	{
-		m_pSystemMaster->Initialize();
-		m_pEntityMaster->Initialize();
-		m_pComponentMaster->Initialize();
-
-		m_IsInitialized = true;
-	}
 
 	inline void ECSMaster::GameInitialize()
 	{
-		if (!m_IsInitialized) return;
-
 		m_pSystemMaster->InitializeSystems();
 	}
 
 	inline void ECSMaster::GameStart()
 	{
-		if (!m_IsInitialized) return;
-
 		m_pSystemMaster->OnStart();
 	}
 
 	inline void ECSMaster::GameUpdate()
 	{
-		if (!m_IsInitialized) return;
-
 		m_pSystemMaster->OnUpdate();
 	}
 
 	inline void ECSMaster::GameStop()
 	{
-		if (!m_IsInitialized) return;
-
 		m_pSystemMaster->OnStop();
 	}
 
 	inline void ECSMaster::Render() const
 	{
-		if (!m_IsInitialized) return;
-		
 		m_pSystemMaster->OnRender();
 	}
 

@@ -13,6 +13,7 @@ namespace Libero
 		inline virtual void Start() {};
 		inline virtual void PreUpdate() {};
 		inline virtual void Update() {};
+		inline virtual void FixedUpdate() {};
 		inline virtual void PostUpdate() {};
 
 		inline virtual void Render() const {};

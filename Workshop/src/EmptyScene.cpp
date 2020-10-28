@@ -92,7 +92,7 @@ void EmptyScene::SetupCamera()
 	GameObject* pCamera = NewGameObject();
 	pCamera->SetName("Camera");
 	CameraComponent* pCam = pCamera->AddComponent<CameraComponent>();
-	pCam->SetFOV(60.0f);
+	pCam->SetFOV(90.0f);
 	pCam->SetActive(true);
 	pCamera->GetTransform()->SetPosition({ 0.f, 30.f, -30.f });
 	pCamera->GetTransform()->Rotate({ 3.14f / 4.0f, 0.0f, 0.0f });

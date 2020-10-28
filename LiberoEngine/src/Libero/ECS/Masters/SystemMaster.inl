@@ -3,11 +3,13 @@
 #include "Libero/Memory/Allocators/LibLinearAllocator.h"
 #include "Libero/Memory/MemoryMaster.h"
 #include "Libero/ECS/Core/ISystem.h"
+#include "Libero/Time/Time.h"
 
 namespace Libero
 {
 	inline SystemMaster::SystemMaster()
 	{
+		// Setup the Linear allocator for storing systems
 		size_t size = LBR_SYSTEM_MEMORY_SIZE;
 		MemoryMaster& memMaster = MemoryMaster::Get();
 		m_pAllocator = new LibLinearAllocator(size, memMaster.Allocate(size));
@@ -15,13 +17,13 @@ namespace Libero
 
 	inline SystemMaster::~SystemMaster()
 	{
-		for (std::vector<ISystem*>::reverse_iterator it = m_pWorkingSystems.rbegin(); it != m_pWorkingSystems.rend(); ++it)
+		for (std::vector<ISystem*>::reverse_iterator it = m_pSystems.rbegin(); it != m_pSystems.rend(); ++it)
 		{
 			(*it)->~ISystem();
 			*it = nullptr;
 		}
 
-		m_pWorkingSystems.clear();
+		m_pSystems.clear();
 		m_Systems.clear();
 
 		// Free memory:
@@ -32,21 +34,17 @@ namespace Libero
 		m_pAllocator = nullptr;
 	}
 	
-	inline void SystemMaster::Initialize()
-	{
-		m_IsInitialized = true;
-	}
 
 	inline void SystemMaster::InitializeSystems()
 	{
-		for (ISystem* pSys : m_pWorkingSystems)
+		for (ISystem* pSys : m_pSystems)
 		{
 			pSys->Initialize();
 		}
 	}
 
 	template<class SysType, class ...Args>
-	inline SysType* SystemMaster::AddSystem(Args&& ...sysArgs)
+	inline SysType* SystemMaster::AddSystem(Args... sysArgs)
 	{
 		const SysTypeID typeID = SysType::m_Stat_TypeID;
 		auto it = m_Systems.find(typeID);
@@ -66,68 +64,73 @@ namespace Libero
 			// Map:
 			m_Systems[typeID] = pSys;
 		}
-		else assert(false);
+		else assert(false); // Out of system memory...
 
 		// Add to work order:
-		m_pWorkingSystems.emplace_back(pSys);
+		m_pSystems.emplace_back(pSys);
 
 		return pSys;
 	}
 
+
+
+	// *************************************************************************
+	//  FUNCTIONALITY:
+	// *************************************************************************
+
 	inline void SystemMaster::OnStart()
 	{
-		
-
-		for (ISystem* pSys : m_pWorkingSystems)
-		{
+		for (ISystem* pSys : m_pSystems)
 			if (pSys->m_IsEnabled) pSys->Start();
-		}
 	}
-
 	inline void SystemMaster::OnUpdate()
 	{
-		float dt = 2.f;
 		// PREUPDATE:
-		for (ISystem* pSys : m_pWorkingSystems)
+		for (ISystem* pSys : m_pSystems)
 			if (pSys->m_IsEnabled && !pSys->m_IsAsleep) pSys->PreUpdate();
 
-		for (ISystem* pSys : m_pWorkingSystems)
+		// UPDATE:
+		for (ISystem* pSys : m_pSystems)
+			if (pSys->m_IsEnabled) pSys->Update();
+
+		// FIXED UPDATE:
+		for (ISystem* pSys : m_pSystems)
 		{
 			// Inc time since last update:
-			pSys->m_TimeSinceUpdate += dt;
+			pSys->m_TimeSinceUpdate += (float)TimeLocator::GetDeltaTime();
 
-			// If exceed:
+			// Check if exceed:
 			bool isIntvExceeded = (pSys->m_UpdateIntv > 0.f) && (pSys->m_TimeSinceUpdate > pSys->m_UpdateIntv);
-			pSys->m_IsAsleep = !((pSys->m_UpdateIntv < 0.f) || isIntvExceeded);
+
+			// System is asleep and won't update if updateintv < 0.0f || the intv is not exceeded.
+			pSys->m_IsAsleep = (pSys->m_UpdateIntv < 0.f || !isIntvExceeded);
 		
 			if (!pSys->m_IsAsleep && pSys->m_IsEnabled)
 			{
-				pSys->Update();
+				pSys->FixedUpdate();
 				pSys->m_TimeSinceUpdate = 0.f;
 			}
 		}
 	
-		for (ISystem* pSys : m_pWorkingSystems)
+		// POSTUPDATE:
+		for (ISystem* pSys : m_pSystems)
 			if (pSys->m_IsEnabled) pSys->PostUpdate();
 	}
-
 	inline void SystemMaster::OnStop()
 	{
 		// Do nothing for now...
 	}
-
 	inline void SystemMaster::OnEvent(IEvent& e)
 	{
-		for (ISystem* pSys : m_pWorkingSystems)
+		for (ISystem* pSys : m_pSystems)
 			if (pSys->m_IsEnabled) pSys->OnEvent(e);
 	}
-
 	inline void SystemMaster::OnRender() const
 	{
-		for (ISystem* pSys : m_pWorkingSystems)
+		for (ISystem* pSys : m_pSystems)
 			if (pSys->m_IsEnabled) pSys->Render();
 
-		for (ISystem* pSys : m_pWorkingSystems)
+		for (ISystem* pSys : m_pSystems)
 			if (pSys->m_IsEnabled) pSys->PostRender();
 	}
 }

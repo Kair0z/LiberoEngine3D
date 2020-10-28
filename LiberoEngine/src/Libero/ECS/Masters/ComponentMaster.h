@@ -10,28 +10,25 @@ namespace Libero
 		using ContainerMap = std::unordered_map<CTypeID, IComponentContainer*>;
 		
 	public:
-		~ComponentMaster();
-		void Initialize();
-
 		template <class CType, class ...Args>
-		CType* CreateComponent(const EntityID eID, Args&... args);
-		template <class CType, class ...Args>
-		CType* CreateComponent(const EntityID eID, Args&&... args);
-		template <class CType>
-		CType* CreateComponent(const EntityID eID);
+		CType* CreateComponent(const EntityID eID, Args... args);
 
-		template <class CType>
-		CType* GetComponent(const EntityID eID);
+		// Get all components of type...
+		template <class CType> std::vector<CType*> GetComponentsOfType();
+
+		// Getting components from entity[eID]...
+		template <class CType> CType* GetComponent(const EntityID eID);
 		std::vector<IComponent*> GetComponents(const EntityID eID);
 
-		template <class CType>
-		std::vector<CType*> GetComponentsOfType();
-
-		template <class CType>
-		void RemoveComponent(const EntityID eID);
+		// Removing components from Entity[eID]...
+		template <class CType> void RemoveComponent(const EntityID eID);
 		void RemoveAllComponents(const EntityID eID);
 
+
+		~ComponentMaster();
+
 	public:
+
 #pragma region ComponentIterator
 		template <class CType>
 		using ComponentIt = typename ComponentContainer<CType>::ChunkIterator;
@@ -44,10 +41,10 @@ namespace Libero
 #pragma endregion
 
 	private:
-		ContainerMap m_ContainerMap;
+		ContainerMap m_ContainerMap; // Map of component containers [key: ComponentType]
+
 		std::vector<std::vector<CompID>> m_EntityComponentMap;
 		std::vector<IComponent*> m_ComponentLookUp;
-		bool m_IsInitialized = false;
 
 	private:
 		template <class Type>

@@ -28,29 +28,31 @@ namespace Libero
 
 		if (h)
 		{
-			
-
 			// For each object:
 			for (GameObject* pObj : pActiveScene->GetObjects())
 			{
+				// If object is selected, mark node as selected:
 				ImGuiTreeNodeFlags flags = ImGuiTreeNodeFlags_OpenOnArrow;
 				if (pObj == m_pSelectedObject) flags = flags | ImGuiTreeNodeFlags_Selected;
-
-				bool temp =  ImGui::TreeNodeEx(pObj->GetName().c_str(), flags);
-				if (ImGui::IsItemClicked())
-				{
-					m_pSelectedObject = pObj;
-
-					if (ImGui::BeginPopupContextItem("* Game Scene *"))
-					{
-						std::string fullStr = "* Delete " + pObj->GetName() + " *";
-						if (ImGui::Selectable(fullStr.c_str())) pActiveScene->RemoveGameObject(pObj);
-
-						ImGui::EndPopup();
-					}
-				}
 				
+				// Start a collapsable node:
+				bool temp =  ImGui::TreeNodeEx(pObj->GetName().c_str(), flags);
 				if (temp) ImGui::TreePop();
+
+				if (ImGui::IsMouseClicked(ImGuiMouseButton_Right))
+				{
+					// Open Object Delete Menu:
+					std::string fullStr = "Remove " + pObj->GetName();
+					if (ImGui::Selectable(fullStr.c_str())) pActiveScene->RemoveGameObject(pObj);
+				}
+
+				// Select the node:
+				if (ImGui::IsItemClicked()) m_pSelectedObject = pObj;
+			}
+
+			if (ImGui::IsKeyDown(ImGui::GetKeyIndex(ImGuiKey_Delete)) && m_pSelectedObject)
+			{
+				pActiveScene->RemoveGameObject(m_pSelectedObject);
 			}
 		}
 

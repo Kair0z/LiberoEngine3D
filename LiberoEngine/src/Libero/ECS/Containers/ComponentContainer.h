@@ -13,7 +13,7 @@ namespace Libero
 
 	template <class Type>
 	class ComponentContainer final:
-		public LibChunkAllocator<Type, LBR_COMPONENT_T_CHUNK_SIZE>,
+		public LibChunkAllocator<Type, LBR_COMPONENT_T_CHUNK_SIZE>, // Allocating the memory for components
 		public IComponentContainer
 	{
 	public:
@@ -23,8 +23,9 @@ namespace Libero
 			pComponent->~IComponent();
 
 			// Release memory:
-			this->DestroyObj(pComponent);
+			LibChunkAllocator<Type, LBR_COMPONENT_T_CHUNK_SIZE>::DestroyObj(pComponent);
 
+			// Set pointer to nullptr:
 			pComponent = nullptr;
 		}
 	};

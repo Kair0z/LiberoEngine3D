@@ -15,6 +15,12 @@ namespace Libero
 		return m_View * m_Projection;
 	}
 
+	void CameraComponent::SetFOV(const float newFOV)
+	{
+		m_FOV = XMConvertToRadians(newFOV);
+		m_Projection = DirectX::XMMatrixPerspectiveFovLH(m_FOV, Settings::Window.AR, m_NearPlane, m_FarPlane);
+	}
+
 	void CameraComponent::SetActive(bool active)
 	{
 		CameraMaster* pMaster = CameraMasterLocator::Get();

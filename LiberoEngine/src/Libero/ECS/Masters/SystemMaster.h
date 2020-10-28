@@ -15,7 +15,7 @@ namespace Libero
 	public:
 		SystemMaster();
 		~SystemMaster();
-		void Initialize();
+
 		void InitializeSystems();
 
 		void OnStart();
@@ -25,13 +25,12 @@ namespace Libero
 		void OnRender() const;
 
 		template <class SysType, class... Args>
-		SysType* AddSystem(Args&&... sysArgs);
+		SysType* AddSystem(Args... sysArgs);
 
 	private:
 		SystemMap m_Systems;
-		std::vector<ISystem*> m_pWorkingSystems;
+		std::vector<ISystem*> m_pSystems;
 		LibLinearAllocator* m_pAllocator = nullptr;
-		bool m_IsInitialized = false;
 	};
 }
 

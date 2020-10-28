@@ -16,6 +16,12 @@ namespace Libero
 
 	CameraComponent* CameraMaster::GetActiveCamera()
 	{
+		// If no camera exists, set the active camera to default camera...
+		if (!m_pActiveCamera)
+		{
+			m_pActiveCamera = m_pDefaultCamera;
+		}
+
 		return m_pActiveCamera;
 	}
 

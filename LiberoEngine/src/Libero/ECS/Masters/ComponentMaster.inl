@@ -14,13 +14,8 @@ namespace Libero
 		}
 	}
 
-	inline void ComponentMaster::Initialize()
-	{
-		m_IsInitialized = true;
-	}
-
 	template<class CType, class ...Args>
-	inline CType* ComponentMaster::CreateComponent(const EntityID eID, Args&...args)
+	inline CType* ComponentMaster::CreateComponent(const EntityID eID, Args...args)
 	{
 		const CTypeID cTypeID = CType::m_Stat_TypeID;
 
@@ -31,55 +26,11 @@ namespace Libero
 		CompID cID = GenerateID((CType*)pObjMem);
 
 		// Create the object:
-		IComponent* pComponent = new (pObjMem)CType(std::forward<Args&>(args)...);
+		IComponent* pComponent = new (pObjMem)CType(std::forward<Args>(args)...);
 		pComponent->m_OwnerID = eID;
 		pComponent->m_ID = cID;
 
 		// Map the componentID to the entityID
-		MapComponentToEntity(eID, cID, cTypeID);
-
-		return (CType*)pComponent;
-	}
-
-	template<class CType, class ...Args>
-	inline CType* ComponentMaster::CreateComponent(const EntityID eID, Args&& ...args)
-	{
-		const CTypeID cTypeID = CType::m_Stat_TypeID;
-
-		// Retrieve memory for object:
-		void* pObjMem = GetComponentContainer<CType>()->CreateObj();
-
-		// Create ID:
-		CompID cID = GenerateID((CType*)pObjMem);
-
-		// Create the object:
-		IComponent* pComponent = new (pObjMem)CType(std::forward<Args&&>(args)...);
-		pComponent->m_OwnerID = eID;
-		pComponent->m_ID = cID;
-
-		// Map the componentID to the entityID
-		MapComponentToEntity(eID, cID, cTypeID);
-
-		return (CType*)pComponent;
-	}
-
-	template <class CType>
-	inline CType* ComponentMaster::CreateComponent(const EntityID eID)
-	{
-		const CTypeID cTypeID = CType::m_Stat_TypeID;
-
-		// Memory:
-		void* pObjMem = GetComponentContainer<CType>()->CreateObj();
-
-		// ID:
-		CompID cID = GenerateID((CType*)pObjMem);
-
-		// Create the obj:
-		IComponent* pComponent = new (pObjMem)CType();
-		pComponent->m_OwnerID = eID;
-		pComponent->m_ID = cID;
-
-		// Map:
 		MapComponentToEntity(eID, cID, cTypeID);
 
 		return (CType*)pComponent;
@@ -189,9 +140,6 @@ namespace Libero
 
 		return pContainer;
 	}
-
-
-
 
 
 #pragma region IDHandling

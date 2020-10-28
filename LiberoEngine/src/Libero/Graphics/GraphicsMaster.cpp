@@ -6,6 +6,7 @@
 #include "Texture2D.h"
 #include "Colors.h"
 #include "2DRendering/ImageRenderer.h"
+#include "DebugRendering/DebugRenderer.h"
 
 namespace Libero
 {
@@ -25,6 +26,7 @@ namespace Libero
 		SafeDelete(m_pMainWindowRenderTarget);
 		SafeDelete(m_pGameRenderTarget);
 		SafeDelete(m_pImageRenderer);
+		SafeDelete(m_pDebugRenderer);
 	}
 
 	void GraphicsMaster::Initialize(HINSTANCE winInstance)

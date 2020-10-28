@@ -13,7 +13,9 @@ namespace Libero
 		DefGetSet(XMMATRIX, Projection, m_Projection);
 		XMMATRIX GetViewProjection() const;
 
-		DefGetSet(float, FOV, m_FOV);
+		DefGet(float, FOV, m_FOV);
+		void SetFOV(const float newFOV);
+
 		DefGetSet(float, NearPlane, m_NearPlane);
 		DefGetSet(float, FarPlane, m_FarPlane);
 
