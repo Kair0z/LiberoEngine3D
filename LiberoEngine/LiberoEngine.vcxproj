@@ -193,6 +193,7 @@
   <ItemGroup>
     <ClInclude Include="src\Libero\Components\DirectionLightComponent.h" />
     <ClInclude Include="src\Libero\Graphics\DebugRendering\DebugRenderer.h" />
+    <ClInclude Include="src\Libero\Math\AVector\Vector.h" />
     <ClInclude Include="src\Libero\Math\Random.h" />
     <ClInclude Include="src\Libero\Physics\PhysicsMaster.h" />
     <ClInclude Include="src\Libero\Editor\MyWindows\ImGui_GameView.h" />
@@ -305,6 +306,7 @@
     <None Include="src\Libero\ECS\Masters\ComponentMaster.inl" />
     <None Include="src\Libero\ECS\Masters\EntityMaster.inl" />
     <None Include="src\Libero\ECS\Masters\SystemMaster.inl" />
+    <None Include="src\Libero\Math\AVector\Vector.inl" />
     <None Include="src\Libero\Memory\Allocators\ChunkAllocator\Chunk.inl" />
     <None Include="src\Libero\Memory\Allocators\ChunkAllocator\ChunkIterator.inl" />
     <None Include="src\Libero\Memory\Allocators\ChunkAllocator\LibChunkAllocator.inl" />

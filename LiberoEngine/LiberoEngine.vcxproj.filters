@@ -168,6 +168,7 @@
     <ClInclude Include="src\Libero\Math\Random.h" />
     <ClInclude Include="src\Libero\Graphics\DebugRendering\DebugRenderer.h" />
     <ClInclude Include="src\Libero\Components\DirectionLightComponent.h" />
+    <ClInclude Include="src\Libero\Math\AVector\Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Libero\ECS\Core\ISystem.inl" />
@@ -183,5 +184,6 @@
     <None Include="src\Libero\Memory\Allocators\ChunkAllocator\Chunk.inl" />
     <None Include="src\Libero\ECS\ECSLocator.inl" />
     <None Include="src\Libero\Scene\Scene.inl" />
+    <None Include="src\Libero\Math\AVector\Vector.inl" />
   </ItemGroup>
 </Project>

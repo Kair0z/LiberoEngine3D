@@ -1,47 +1,12 @@
 #pragma once
 #include "Liber_pch.h"
 #include "Quaternion/Quaternion.h"
-#include "Vector/Vector.h"
-#include "Vector/Vector2.h"
-#include "Vector/Vector3.h"
-#include "Vector/Vector4.h"
+#include "AVector/Vector.h"
 
 using namespace DirectX;
 namespace Libero
 {
-	using Vector2f = Vector<float, 2>;
-	using Vector2d = Vector<double, 2>;
-	using Vector2i = Vector<int, 2>;
-	using Vector2ui = Vector<uint32_t, 2>;
-
-	using Point2f = Vector<float, 2>;
-	using Point2d = Vector<double, 2>;
-	using Point2i = Vector<int, 2>;
-	using Point2ui = Vector<uint32_t, 2>;
-
-	using Vector3f = Vector<float, 3>;
-	using Vector3d = Vector<double, 3>;
-	using Vector3i = Vector<int, 3>;
-	using Vector3ui = Vector<uint32_t, 3>;
-
-	using Point3f = Vector<float, 3>;
-	using Point3d = Vector<double, 3>;
-	using Point3i = Vector<int, 3>;
-	using Point3ui = Vector<uint32_t, 3>;
-
-	using Vector4f = Vector<float, 4>;
-	using Vector4d = Vector<double, 4>;
-	using Vector4i = Vector<int, 4>;
-	using Vector4ui = Vector<uint32_t, 4>;
-
-	using Point4f = Vector<float, 4>;
-	using Point4d = Vector<double, 4>;
-	using Point4i = Vector<int, 4>;
-	using Point4ui = Vector<uint32_t, 4>;
-
-	using ColorRGBA = Vector<float, 4>;
-	using ColorRGB = Vector<float, 3>;
-	using Color = ColorRGB;
+	
 
 	ColorRGBA WithAlpha(const ColorRGB& col, float a);
 

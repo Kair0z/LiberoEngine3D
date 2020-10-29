@@ -6,7 +6,7 @@ namespace Libero
 {
 	ColorRGBA WithAlpha(const ColorRGB& col, float a)
 	{
-		return ColorRGBA(col.x, col.y, col.z, a);
+		return ColorRGBA({ col.x, col.y, col.z, a });
 	}
 
 	XMVECTOR ToXMVector(const XMFLOAT3& t)
