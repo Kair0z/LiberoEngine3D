@@ -1,6 +1,7 @@
 #pragma once
 #include "Loading.h"
 #include "Libero/Graphics/Mesh.h"
+#include "Libero/Misc/LiberoUtils.h"
 
 namespace Libero
 {

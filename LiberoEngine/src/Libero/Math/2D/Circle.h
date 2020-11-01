@@ -10,7 +10,7 @@ namespace Libero
 		{
 			union
 			{
-				struct { T x, y, r; };
+				struct { float x, y, r; };
 				struct { Vector<float, 2> center; float radius; };
 			};
 

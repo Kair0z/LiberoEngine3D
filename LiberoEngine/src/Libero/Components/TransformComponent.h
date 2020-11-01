@@ -4,6 +4,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	class TransformComponent final : public Component<TransformComponent>
 	{
 	public:

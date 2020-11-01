@@ -4,6 +4,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	class EventMouse : public IEvent
 	{
 	public:

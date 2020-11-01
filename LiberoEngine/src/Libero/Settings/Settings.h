@@ -10,7 +10,7 @@ namespace Libero
 {
 	struct WindowSettings
 	{
-		static Vector2f Dimensions;
+		static Math::Vector2f Dimensions;
 		static float AR;
 		static std::string Title;
 		static HWND Handle;

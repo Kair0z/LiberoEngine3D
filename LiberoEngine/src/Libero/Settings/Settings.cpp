@@ -3,6 +3,8 @@
 
 namespace Libero
 {
+	using namespace Math;
+
 	// WindowSettings:
 	Vector2f WindowSettings::Dimensions = { 1920.f, 1080.f };
 	float WindowSettings::AR = WindowSettings::Dimensions.x / WindowSettings::Dimensions.y;

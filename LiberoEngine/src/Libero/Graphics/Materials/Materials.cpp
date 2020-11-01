@@ -2,6 +2,7 @@
 #include "Materials.h"
 #include "MaterialMaster.h"
 #include "Libero/Math/Color/Colors.h"
+
 namespace Libero
 {
     IMaterial* Libero::LiberoMaterials::DefaultMaterial()

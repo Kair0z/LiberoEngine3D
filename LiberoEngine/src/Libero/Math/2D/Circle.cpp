@@ -1,3 +1,4 @@
+#include "Liber_pch.h"
 #include "Circle.h"
 
 namespace Libero

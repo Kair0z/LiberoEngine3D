@@ -3,6 +3,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	class SkyDome final
 	{
 	public:

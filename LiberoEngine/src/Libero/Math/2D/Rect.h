@@ -1,9 +1,5 @@
 #pragma once
-#include "Liber_pch.h"
-#include "../Quaternion/Quaternion.h"
 #include "../Vector/Vector.h"
-
-#include "DXMath.h"
 
 namespace Libero
 {
@@ -56,3 +52,7 @@ namespace Libero
 		};
 	}
 }
+class Rect
+{
+};
+

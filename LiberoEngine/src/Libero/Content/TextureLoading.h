@@ -2,6 +2,7 @@
 #include "Loading.h"
 #include "Libero/Graphics/GraphicsMaster.h"
 #include "Libero/Graphics/Texture2D.h"
+#include "Libero/Misc/LiberoUtils.h"
 
 namespace Libero
 {

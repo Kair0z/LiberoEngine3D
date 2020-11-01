@@ -9,6 +9,8 @@
 
 namespace Libero
 {
+	using namespace Math;
+
 	SkyDomeRenderComponent::SkyDomeRenderComponent(const std::string& effectFile)
 		: m_EffectPath{effectFile}
 	{

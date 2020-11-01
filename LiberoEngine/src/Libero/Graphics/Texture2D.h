@@ -6,6 +6,7 @@ struct ID3D11Texture2D;
 
 namespace Libero
 {
+	using namespace Math;
 	struct Texture2D_Desc
 	{
 		Vector2f m_Dimensions = { 512, 512 };

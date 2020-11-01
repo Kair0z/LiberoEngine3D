@@ -5,6 +5,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	class SkyDomeRenderComponent final : public Component<SkyDomeRenderComponent>
 	{
 		using DomeVertex = Vector3f;

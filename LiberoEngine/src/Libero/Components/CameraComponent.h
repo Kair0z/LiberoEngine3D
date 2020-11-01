@@ -4,6 +4,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	class CameraComponent : public Component<CameraComponent>
 	{
 	public:

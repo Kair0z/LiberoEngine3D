@@ -1,6 +1,7 @@
 #pragma once
 namespace Libero
 {
+	using namespace Math;
 	class ImageRenderer
 	{
 	public:

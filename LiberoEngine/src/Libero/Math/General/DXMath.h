@@ -1,11 +1,12 @@
 #pragma once
-#include "LiberoMath.h"
+#include "../LiberoMath.h"
+#include <DirectXMath.h>
+using namespace DirectX;
 
 namespace Libero
 {
 	namespace Math
 	{
-		using namespace DirectX;
 		ColorRGBA WithAlpha(const ColorRGB& col, float a);
 
 		XMVECTOR ToXMVector(const XMFLOAT3& t);

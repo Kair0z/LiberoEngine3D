@@ -5,6 +5,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	class ImGui_Editor final : public ImGuiWindow
 	{
 		virtual void ImGuiRender() override

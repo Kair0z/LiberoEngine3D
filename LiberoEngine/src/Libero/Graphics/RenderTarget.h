@@ -3,6 +3,8 @@
 
 namespace Libero
 {
+	using namespace Math;
+
 	struct RT_Desc
 	{
 	public:

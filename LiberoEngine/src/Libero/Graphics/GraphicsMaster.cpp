@@ -10,6 +10,7 @@
 
 namespace Libero
 {
+	using namespace Math;
 	GraphicsMaster::GraphicsMaster()
 		: m_IsInitialized{false}
 	{

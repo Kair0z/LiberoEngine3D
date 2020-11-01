@@ -1,5 +1,7 @@
+#include "Liber_pch.h"
 #include "Quaternion.h"
 #include "../Vector/Vector.h"
+
 
 namespace Libero
 {
@@ -103,7 +105,7 @@ namespace Libero
 
 			// Pitch (y):
 			float sinp = 2 * (s * j - k * i);
-			if (std::abs(sinp) >= 1) angles.y = std::copysign(Math::fPI / 2.0f, sinp);
+			if (std::abs(sinp) >= 1) angles.y = std::copysign(Math::Pi() / 2.0f, sinp);
 			else angles.y = std::asinf(sinp);
 
 			// Yaw (z):
@@ -117,16 +119,14 @@ namespace Libero
 
 			if (round)
 			{
-				angles.x = Math::Round(angles.x);
-				angles.y = Math::Round(angles.y);
-				angles.z = Math::Round(angles.z);
+				angles.x = (float)Math::Round(angles.x);
+				angles.y = (float)Math::Round(angles.y);
+				angles.z = (float)Math::Round(angles.z);
 			}
 			return angles;
 		}
 		Vector3f Quaternion::RotateVectorAxis(float angle, const Vector3f& _v, const Vector3f& axis) const
 		{
-			float a = Math::ToRadians(angle);
-
 			// Vector to pure quat:
 			Quaternion p{ 0, _v };
 

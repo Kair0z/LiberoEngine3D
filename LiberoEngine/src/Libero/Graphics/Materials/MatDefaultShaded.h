@@ -13,6 +13,7 @@ using DXVectorVar = ID3DX11EffectVectorVariable;
 
 namespace Libero
 {
+	using namespace Math;
 	class Texture2D;
 	class MatDefaultShaded final : public IMaterial
 	{
