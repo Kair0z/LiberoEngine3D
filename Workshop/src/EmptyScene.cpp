@@ -10,7 +10,7 @@
 #include "Libero/Graphics/Materials/MatDefaultShaded.h"
 #include "Libero/Components/SkyDomeRenderComponent.h"
 #include "Libero/Components/InputComponent.h"
-#include "Libero/Math/Random.h"
+#include "Libero/Math/Random/Random.h"
 
 #include "SysPlayerMovement.h"
 #include "GeometryPrefabs.h"

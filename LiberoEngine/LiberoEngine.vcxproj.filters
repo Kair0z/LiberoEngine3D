@@ -26,7 +26,6 @@
     <ClCompile Include="src\Libero\Systems\SysTransforms.cpp" />
     <ClCompile Include="src\Libero\Components\CameraComponent.cpp" />
     <ClCompile Include="src\Libero\Graphics\CameraMaster.cpp" />
-    <ClCompile Include="src\Libero\Math\LiberoMath.cpp" />
     <ClCompile Include="src\Libero\Components\TransformComponent.cpp" />
     <ClCompile Include="src\Libero\ECS\Core\IComponent.cpp" />
     <ClCompile Include="src\Libero\Settings\Settings.cpp" />
@@ -63,13 +62,13 @@
     <ClCompile Include="src\Libero\Physics\PhysicsMaster.cpp" />
     <ClCompile Include="src\Libero\Graphics\DebugRendering\DebugRenderer.cpp" />
     <ClCompile Include="src\Libero\Components\DirectionLightComponent.cpp" />
-    <ClCompile Include="src\Libero\Math\3D\Sphere.cpp" />
-    <ClCompile Include="src\Libero\Engine\EngineModules.cpp" />
+    <ClCompile Include="src\Libero\Math\Quaternion\Quaternion.cpp" />
+    <ClCompile Include="src\Libero\Math\General\LiberoMath.cpp" />
+    <ClCompile Include="src\Libero\Math\General\DXMath.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Libero\Game.h" />
     <ClInclude Include="src\Liber_pch.h" />
-    <ClInclude Include="src\Libero\Math\LiberoMath.h" />
     <ClInclude Include="src\Libero\Math\Vector.h" />
     <ClInclude Include="src\Libero\Math\Vector2.h" />
     <ClInclude Include="src\Libero\Math\Vector3.h" />
@@ -170,12 +169,12 @@
     <ClInclude Include="src\Libero\Math\Random.h" />
     <ClInclude Include="src\Libero\Graphics\DebugRendering\DebugRenderer.h" />
     <ClInclude Include="src\Libero\Components\DirectionLightComponent.h" />
-    <ClInclude Include="src\Libero\Math\Space\Space.h" />
-    <ClInclude Include="src\Libero\Math\2D\2DMath.h" />
-    <ClInclude Include="src\Libero\Math\2D\Circle.h" />
-    <ClInclude Include="src\Libero\Math\3D\3DMath.h" />
-    <ClInclude Include="src\Libero\Math\3D\Sphere.h" />
-    <ClInclude Include="src\Libero\Engine\EngineModules.h" />
+    <ClInclude Include="src\Libero\Math\AVector\Vector.h" />
+    <ClInclude Include="src\Libero\Math\Vector\Vector.h" />
+    <ClInclude Include="src\Libero\Math\Quaternion\Quaternion.h" />
+    <ClInclude Include="src\Libero\Math\General\LiberoMath.h" />
+    <ClInclude Include="src\Libero\Math\General\DXMath.h" />
+    <ClInclude Include="src\Libero\Math\Matrix\Matrix.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Libero\ECS\Core\ISystem.inl" />
@@ -191,6 +190,8 @@
     <None Include="src\Libero\Memory\Allocators\ChunkAllocator\Chunk.inl" />
     <None Include="src\Libero\ECS\ECSLocator.inl" />
     <None Include="src\Libero\Scene\Scene.inl" />
-    <None Include="src\Libero\Math\2D\Circle.cpp" />
+    <None Include="src\Libero\Math\AVector\Vector.inl" />
+    <None Include="src\Libero\Math\Vector\Vector.inl" />
+    <None Include="src\Libero\Math\Matrix\Matrix.inl" />
   </ItemGroup>
 </Project>
