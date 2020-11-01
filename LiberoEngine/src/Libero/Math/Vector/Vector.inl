@@ -221,17 +221,17 @@ namespace Libero
 	template<typename T, size_t N>
 	inline Vector<T, N>& Vector<T, N>::operator+=(const Vector& other)
 	{
-		*this = *this + other;
+		return *this = *this + other;
 	}
 	template<typename T, size_t N>
 	inline Vector<T, N>& Vector<T, N>::operator-=(const Vector& other)
 	{
-		*this = *this - other;
+		return *this = *this - other;
 	}
 	template<typename T, size_t N>
 	inline Vector<T, N>& Vector<T, N>::operator*=(const Vector& other)
 	{
-		*this = *this * other;
+		return *this = *this * other;
 	}
 	template<typename T, size_t N>
 	inline Vector<T, N>& Vector<T, N>::operator*=(const float scalar)
@@ -241,7 +241,7 @@ namespace Libero
 	template<typename T, size_t N>
 	inline Vector<T, N>& Vector<T, N>::operator/=(const Vector& other)
 	{
-		*this = *this / other;
+		return *this = *this / other;
 	}
 	template<typename T, size_t N>
 	Vector<T, N> operator+(const Vector<T, N>& a, const Vector<T, N>& b)
