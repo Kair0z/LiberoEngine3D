@@ -4,23 +4,24 @@
 
 namespace Libero
 {
-	// Calls the <void(IEvent&)> Function and automatically sets the event handled
-#define LBR_EVDISP_FUNCBIND(Func) std::bind(&##Func, this, std::placeholders::_1)
-
-	class EventDispatcher 
+	// ** Catches events and directs them based on type to a given function
+	class EventCatch final
 	{
 		template <class E>
-		using EventFunc = std::function<void(E&)>;
+		using ECatchFunc = std::function<void(E&)>;
 	public:
-		EventDispatcher(IEvent& e) : m_Event{e}{}
+		EventCatch(IEvent& e) : m_Event{e}{}
 
 		template <class E>
-		bool Dispatch(EventFunc<E> func)
+		bool Catch(ECatchFunc<E> func, bool autoHandle = false)
 		{
-			
 			if (m_Event.IsHandled()) return false;
 			if (E::GetStaticType() != m_Event.GetType()) return false;
+
+			// Use function on event
 			func(*(E*)&m_Event);
+			m_Event.SetHandled(autoHandle);
+
 			return true;
 		}
 

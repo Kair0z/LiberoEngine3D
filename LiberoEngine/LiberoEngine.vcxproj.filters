@@ -63,6 +63,8 @@
     <ClCompile Include="src\Libero\Physics\PhysicsMaster.cpp" />
     <ClCompile Include="src\Libero\Graphics\DebugRendering\DebugRenderer.cpp" />
     <ClCompile Include="src\Libero\Components\DirectionLightComponent.cpp" />
+    <ClCompile Include="src\Libero\Math\3D\Sphere.cpp" />
+    <ClCompile Include="src\Libero\Engine\EngineModules.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Libero\Game.h" />
@@ -168,6 +170,12 @@
     <ClInclude Include="src\Libero\Math\Random.h" />
     <ClInclude Include="src\Libero\Graphics\DebugRendering\DebugRenderer.h" />
     <ClInclude Include="src\Libero\Components\DirectionLightComponent.h" />
+    <ClInclude Include="src\Libero\Math\Space\Space.h" />
+    <ClInclude Include="src\Libero\Math\2D\2DMath.h" />
+    <ClInclude Include="src\Libero\Math\2D\Circle.h" />
+    <ClInclude Include="src\Libero\Math\3D\3DMath.h" />
+    <ClInclude Include="src\Libero\Math\3D\Sphere.h" />
+    <ClInclude Include="src\Libero\Engine\EngineModules.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Libero\ECS\Core\ISystem.inl" />
@@ -183,5 +191,6 @@
     <None Include="src\Libero\Memory\Allocators\ChunkAllocator\Chunk.inl" />
     <None Include="src\Libero\ECS\ECSLocator.inl" />
     <None Include="src\Libero\Scene\Scene.inl" />
+    <None Include="src\Libero\Math\2D\Circle.cpp" />
   </ItemGroup>
 </Project>

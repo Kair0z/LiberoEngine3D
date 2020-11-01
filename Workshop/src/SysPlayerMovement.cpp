@@ -9,13 +9,13 @@ using namespace Libero;
 
 void SysPlayerMovement::OnEvent(IEvent& e)
 {
-	EventDispatcher dispatch(e);
-	dispatch.Dispatch<EventKeyDown>([this](EventKeyDown& e) 
+	EventCatch dispatch(e);
+	dispatch.Catch<EventKeyDown>([this](EventKeyDown& e) 
 		{
 			ProcessKeyDown(e.GetParam());
 		});
 
-	dispatch.Dispatch<EventMouseMove>([this](EventMouseMove& e)
+	dispatch.Catch<EventMouseMove>([this](EventMouseMove& e)
 		{
 			ProcessMouseMove(e);
 		});

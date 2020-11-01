@@ -1,62 +1,35 @@
 #include "Liber_pch.h"
 #include "Engine.h"
 #include "../Game.h"
-#include "Libero/ECS/ECSMaster.h"
-#include "Libero/Interfaces/Observer/SubjectMaster.h"
-#include "Libero/Content/ContentMaster.h"
-#include "Libero/Files/FileMaster.h"
-#include "Libero/Graphics/CameraMaster.h"
+
 #include "Libero/Entities/GameObject.h"
 #include "Libero/Interfaces/Events/EngineEvent.h"
 #include "Libero/Interfaces/Events/EventDispatcher.h"
-#include "Libero/Input/InputMaster.h"
-#include "Libero/Scene/SceneMaster.h"
-#include "Libero/Graphics/Materials/MaterialMaster.h"
 #include "Libero/Systems/CoreSystems.h"
-#include "Libero/Logging/Logger.h"
-#include "Libero/Editor/Editor.h"
 
 
 namespace Libero
 {
-#pragma region Constructor
-	Engine::Engine()
-		: m_pGame{nullptr}
-		, m_pEditor{nullptr}
-		, m_pECSMaster{nullptr}
-		, m_pSubjectMaster{nullptr}
-		, m_Settings{}
-		, m_pTime{nullptr}
-		, m_pSceneMaster{nullptr}
-		, m_pCameraMaster{nullptr}
-		, m_pContentMaster{nullptr}
-		, m_pFileMaster{nullptr}
-		, m_pMaterialMaster{nullptr}
-	{
-		
-	}
-#pragma endregion
 
 	void Engine::Cleanup()
 	{
-		SafeDelete(m_pEditor);
-		SafeDelete(m_pGraphicsMaster);
-		SafeDelete(m_pECSMaster);
-		SafeDelete(m_pSubjectMaster);
-		SafeDelete(m_pInputMaster);
-		SafeDelete(m_pTime);
-		SafeDelete(m_pSceneMaster);
-		SafeDelete(m_pCameraMaster);
-		SafeDelete(m_pLogger);
-		SafeDelete(m_pContentMaster);
-		SafeDelete(m_pFileMaster);
-		SafeDelete(m_pMaterialMaster);
+		SafeDelete(m_Mods.m_pEditor);
+		SafeDelete(m_Mods.m_pGraphicsMaster);
+		SafeDelete(m_Mods.m_pECSMaster);
+		SafeDelete(m_Mods.m_pSubjectMaster);
+		SafeDelete(m_Mods.m_pInputMaster);
+		SafeDelete(m_Mods.m_pTime);
+		SafeDelete(m_Mods.m_pSceneMaster);
+		SafeDelete(m_Mods.m_pCameraMaster);
+		SafeDelete(m_Mods.m_pLogger);
+		SafeDelete(m_Mods.m_pContentMaster);
+		SafeDelete(m_Mods.m_pFileMaster);
+		SafeDelete(m_Mods.m_pMaterialMaster);
 	}
 
-	void Engine::LoadGame(Game* pGame)
+	void Engine::SetGame(Game* pGame)
 	{
 		if (m_pGame) delete m_pGame;
-
 		m_pGame = pGame;
 	}
 
@@ -64,14 +37,14 @@ namespace Libero
 	void Engine::Run(HINSTANCE winInstance)
 	{
 		// Init masters:
-		InitMasters(winInstance);
-		InitSystems();
+		InitModules(winInstance);
+		LoadCoreSystems();
 
 		// Init Game:
-		InitGame();
+		LoadGame();
 		while (!m_ShouldQuit)
 		{
-			m_pTime->Tick();
+			m_Mods.m_pTime->Tick();
 
 			// Run Engine
 			EngineLoop();
@@ -82,55 +55,55 @@ namespace Libero
 	}
 
 
-#pragma region Initialize
-	void Engine::InitMasters(HINSTANCE winInstance)
+#pragma region Initialization
+	void Engine::InitModules(HINSTANCE winInstance)
 	{
 		// Init Managers:
-		m_pGraphicsMaster = new GraphicsMaster();
-		m_pGraphicsMaster->Initialize(winInstance);
-		GraphicsLocator::Provide(m_pGraphicsMaster);
+		m_Mods.m_pGraphicsMaster = new GraphicsMaster();
+		m_Mods.m_pGraphicsMaster->Initialize(winInstance);
+		GraphicsLocator::Provide(m_Mods.m_pGraphicsMaster);
 
-		m_pLogger = new Logger();
-		LoggerLocator::Provide(m_pLogger);
-		m_pLogger->LogInfo("The Libero Engine! <DX11>");
+		m_Mods.m_pLogger = new Logger();
+		LoggerLocator::Provide(m_Mods.m_pLogger);
+		m_Mods.m_pLogger->LogInfo("The Libero Engine! <DX11>");
 
-		m_pEditor = new Editor();
-		m_pEditor->Initialize();
+		m_Mods.m_pEditor = new Editor();
+		m_Mods.m_pEditor->Initialize();
 
-		m_pECSMaster = new ECSMaster();
-		ECSLocator::Provide(m_pECSMaster);
+		m_Mods.m_pECSMaster = new ECSMaster();
+		ECSLocator::Provide(m_Mods.m_pECSMaster);
 
-		m_pSubjectMaster = new SubjectMaster();
-		SubjectLocator::Provide(m_pSubjectMaster);
+		m_Mods.m_pSubjectMaster = new SubjectMaster();
+		SubjectLocator::Provide(m_Mods.m_pSubjectMaster);
 
 		// Subscribe the engine object to Input & Engine events
-		m_pSubjectMaster->AddToSubject(this, eSubject::Input);
-		m_pSubjectMaster->AddToSubject(this, eSubject::Engine);
+		m_Mods.m_pSubjectMaster->AddToSubject(this, eSubject::Input);
+		m_Mods.m_pSubjectMaster->AddToSubject(this, eSubject::Engine);
 
-		m_pInputMaster = new InputMaster();
+		m_Mods.m_pInputMaster = new InputMaster();
 
-		m_pTime = new Time();
-		m_pTime->Start();
-		TimeLocator::Provide(m_pTime);
+		m_Mods.m_pTime = new Time();
+		m_Mods.m_pTime->Start();
+		TimeLocator::Provide(m_Mods.m_pTime);
 
-		m_pSceneMaster = new SceneMaster();
-		SceneMasterLocator::Provide(m_pSceneMaster);
+		m_Mods.m_pSceneMaster = new SceneMaster();
+		SceneMasterLocator::Provide(m_Mods.m_pSceneMaster);
 
-		m_pCameraMaster = new CameraMaster();
-		m_pCameraMaster->Initialize();
-		CameraMasterLocator::Provide(m_pCameraMaster);
+		m_Mods.m_pCameraMaster = new CameraMaster();
+		m_Mods.m_pCameraMaster->Initialize();
+		CameraMasterLocator::Provide(m_Mods.m_pCameraMaster);
 
-		m_pContentMaster = new ContentMaster();
-		ContentLocator::Provide(m_pContentMaster);
+		m_Mods.m_pContentMaster = new ContentMaster();
+		ContentLocator::Provide(m_Mods.m_pContentMaster);
 
-		m_pFileMaster = new FileMaster();
-		FileLocator::Provide(m_pFileMaster);
+		m_Mods.m_pFileMaster = new FileMaster();
+		FileLocator::Provide(m_Mods.m_pFileMaster);
 
-		m_pMaterialMaster = new MaterialMaster();
-		MaterialLocator::Provide(m_pMaterialMaster);
+		m_Mods.m_pMaterialMaster = new MaterialMaster();
+		MaterialLocator::Provide(m_Mods.m_pMaterialMaster);
 	}
 
-	void Engine::InitSystems()
+	void Engine::LoadCoreSystems()
 	{
 		ECSLocator::LoadSystem<SysRendering>();
 		ECSLocator::LoadSystem<SysTransforms>();
@@ -138,26 +111,21 @@ namespace Libero
 		ECSLocator::LoadSystem<SysInput>();
 	}
 
-	void Engine::InitGame()
+	void Engine::LoadGame()
 	{
 		m_pGame->Initialize();
-		m_pECSMaster->GameInitialize();
+		m_Mods.m_pECSMaster->GameInitialize();
 	}
 
 #pragma endregion
 
-	void Engine::GameStart()
+	void Engine::BootGame(bool active)
 	{
-		if (m_GameRunning) return;
-		m_GameRunning = true;
-		m_pECSMaster->GameStart();
-	}
+		if (m_GameRunning == active) return; // If no change in state...
+		m_GameRunning = active;
 
-	void Engine::GameStop()
-	{
-		if (!m_GameRunning) return;
-		m_GameRunning = false;
-		m_pECSMaster->GameStop();
+		if (active) m_Mods.m_pECSMaster->GameStart();
+		else m_Mods.m_pECSMaster->GameStop();
 	}
 
 	void Engine::GameLoop()
@@ -165,39 +133,39 @@ namespace Libero
 		if (!m_pGame) return;
 
 		// Game Update:
-		m_pECSMaster->GameUpdate();
+		m_Mods.m_pECSMaster->GameUpdate();
 
 		// Game Render:
-		m_pGraphicsMaster->OpenGameRender();
-		m_pECSMaster->Render();
+		m_Mods.m_pGraphicsMaster->OpenGameRender();
+		m_Mods.m_pECSMaster->Render();
 	}
 
 	void Engine::EngineLoop()
 	{
 		// Engine update:
-		m_pInputMaster->Update();
+		m_Mods.m_pInputMaster->Update();
 
 		// UI Render:
-		m_pGraphicsMaster->OpenWindowRender();
+		m_Mods.m_pGraphicsMaster->OpenWindowRender();
 		
+		// Render as Editor || Render as final on window
 #ifdef _DEBUG
-		m_pEditor->Render();
+		m_Mods.m_pEditor->Render();
 #else
-		m_pGraphicsMaster->RenderGameFrame();
+		m_Mods.m_pGraphicsMaster->RenderGameFrame();
 #endif
-		
-
-		m_pGraphicsMaster->Present();
+		// Present Backbuffer
+		m_Mods.m_pGraphicsMaster->Present();
 	}
 
 	void Engine::OnEvent(IEvent& e)
 	{
-		EventDispatcher dispatcher{ e };
-		dispatcher.Dispatch<EventQuit>([=](IEvent& e) { m_ShouldQuit = true;  e.SetHandled(); });
-		dispatcher.Dispatch<EventGameStart>([=](IEvent& e) {GameStart(); e.SetHandled(); });
-		dispatcher.Dispatch<EventGameStop>([=](IEvent& e) {GameStop(); e.SetHandled(); });
+		EventCatch eCatch{ e };
+		eCatch.Catch<EventQuit>([=](IEvent&) { m_ShouldQuit = true; }, true);
+		eCatch.Catch<EventGameStart>([=](IEvent&) {BootGame(true); }, true);
+		eCatch.Catch<EventGameStop>([=](IEvent&) {BootGame(false); }, true);
 	
-		m_pECSMaster->OnEvent(e);
+		m_Mods.m_pECSMaster->OnEvent(e);
 	}
 }
 

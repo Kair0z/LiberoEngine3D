@@ -26,7 +26,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
 	Engine* pEngine = new Engine();
 	Game* pGame = Libero::CreateGame();
 
-	if (pGame) pEngine->LoadGame(pGame);
+	if (pGame) pEngine->SetGame(pGame);
 	pEngine->Run(hInstance);
 
 	delete pEngine;
